@@ -1,0 +1,8 @@
+{
+  "name": "script",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "zx": "^7.1.1"
+  }
+}

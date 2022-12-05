@@ -111,9 +111,6 @@ __metadata:
 "esm-test@workspace:.":
   version: 0.0.0-use.local
   resolution: "esm-test@workspace:."
-  dependencies:
-    typescript: ^4.9.3
-    zx: ^7.1.1
   languageName: unknown
   linkType: soft
 
@@ -384,6 +381,15 @@ __metadata:
   checksum: cb4f97ad25a75ebc11a8ef4e33bb962f8af8516bb2001082ceabd8902e15b98f4b84b4f8a9b222e5d57fc3bd1379c483886ed4619367a7680dad65316993021d
   languageName: node
   linkType: hard
+
+"script@workspace:scripts":
+  version: 0.0.0-use.local
+  resolution: "script@workspace:scripts"
+  dependencies:
+    typescript: ^4.9.3
+    zx: ^7.1.1
+  languageName: unknown
+  linkType: soft
 
 "slash@npm:^4.0.0":
   version: 4.0.0

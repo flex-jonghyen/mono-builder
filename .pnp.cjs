@@ -14,12 +14,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "esm-test",\
         "reference": "workspace:."\
+      },\
+      {\
+        "name": "script",\
+        "reference": "workspace:scripts"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["esm-test", ["workspace:."]]\
+      ["esm-test", ["workspace:."]],\
+      ["script", ["workspace:scripts"]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -28,8 +33,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
-            ["zx", "npm:7.1.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -162,9 +165,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["esm-test", "workspace:."],\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
-            ["zx", "npm:7.1.1"]\
+            ["esm-test", "workspace:."]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -474,6 +475,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["queue-microtask", "npm:1.2.3"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["script", [\
+        ["workspace:scripts", {\
+          "packageLocation": "./scripts/",\
+          "packageDependencies": [\
+            ["script", "workspace:scripts"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
+            ["zx", "npm:7.1.1"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["slash", [\
