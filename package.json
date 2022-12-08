@@ -5,7 +5,14 @@
   "workspaces": [
     "scripts"
   ],
+  "resolutions": {
+    "typescript": "4.8.4"
+  },
   "scripts": {
     "postinstall": "yarn dlx @yarnpkg/sdks vscode"
+  },
+  "devDependencies": {
+    "@flexteam/mono-builder": "workspace:^",
+    "typescript": "^4.8.4"
   }
 }
