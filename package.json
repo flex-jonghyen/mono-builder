@@ -3,7 +3,8 @@
   "packageManager": "yarn@3.3.0",
   "private": true,
   "workspaces": [
-    "scripts"
+    "scripts",
+    "app"
   ],
   "resolutions": {
     "typescript": "4.8.4"
