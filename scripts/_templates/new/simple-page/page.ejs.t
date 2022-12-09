@@ -1,9 +1,10 @@
 ---
-to: <%= file_path %>/<%= file_name %>.tsx
+to: <%= file_path %>/pages/<%= file_name %>.tsx
 ---
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+<%- locals.imports %>
 
 export default function <%= file_name %>() {
   return (

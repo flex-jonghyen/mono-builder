@@ -1,10 +1,10 @@
 import { Command } from "clipanion";
-import { generatePage } from "../generator/page.js";
+import { generateApp } from "../generator/app.js";
 
 export class BuilderCommand extends Command {
   static paths = [[`init`], Command.Default];
 
   async execute(): Promise<number | void> {
-    await generatePage({ count: 100, clean: true });
+    await generateApp({ count: 100, clean: true });
   }
 }
