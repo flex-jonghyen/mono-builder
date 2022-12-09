@@ -44,24 +44,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT"\
         }]\
       ]],\
-      ["@faker-js/faker", [\
-        ["npm:7.6.0", {\
-          "packageLocation": "./.yarn/cache/@faker-js-faker-npm-7.6.0-fa135883e9-942af62217.zip/node_modules/@faker-js/faker/",\
-          "packageDependencies": [\
-            ["@faker-js/faker", "npm:7.6.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["@flexteam/mono-builder", [\
         ["workspace:scripts", {\
           "packageLocation": "./scripts/",\
           "packageDependencies": [\
             ["@flexteam/mono-builder", "workspace:scripts"],\
-            ["@faker-js/faker", "npm:7.6.0"],\
             ["@types/node", "npm:18.11.10"],\
             ["clipanion", "virtual:0e3c188519c870742abe878388ef32ad90ce520a975eb9cb64c197f847f89c5ecef41b208d0a50efeaa09a423440a1262ba763497162cc0d206ff74712b3f150#npm:3.2.0-rc.14"],\
             ["hygen", "npm:6.2.11"],\
+            ["rxjs", "npm:7.6.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
             ["zx", "npm:7.1.1"]\
           ],\
@@ -269,10 +260,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:18.11.11", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.11-e5325451ab-c4b1176a8f.zip/node_modules/@types/node/",\
+        ["npm:18.11.12", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.12-3e4f66dc1e-6c67f0998a.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.11.11"]\
+            ["@types/node", "npm:18.11.12"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -368,7 +359,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./app/",\
           "packageDependencies": [\
             ["app", "workspace:app"],\
-            ["@types/node", "npm:18.11.11"],\
+            ["@types/node", "npm:18.11.12"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["next", "virtual:e75651e5332acab272a999511ceb1d590bce71b23805da845e95013f64713cb0d6d5ff642e55e6f52cfffa4aa82d52a8d58226a538b5d6f9574fab8068ba54d2#npm:13.0.6"],\
@@ -480,10 +471,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["caniuse-lite", [\
-        ["npm:1.0.30001436", {\
-          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001436-0864011110-7928ac7d93.zip/node_modules/caniuse-lite/",\
+        ["npm:1.0.30001439", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001439-dd9478bf75-3912dd536c.zip/node_modules/caniuse-lite/",\
           "packageDependencies": [\
-            ["caniuse-lite", "npm:1.0.30001436"]\
+            ["caniuse-lite", "npm:1.0.30001439"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1333,7 +1324,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["@types/sass", null],\
-            ["caniuse-lite", "npm:1.0.30001436"],\
+            ["caniuse-lite", "npm:1.0.30001439"],\
             ["fibers", null],\
             ["node-sass", null],\
             ["postcss", "npm:8.4.14"],\
@@ -1606,6 +1597,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["run-parallel", "npm:1.2.0"],\
             ["queue-microtask", "npm:1.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["rxjs", [\
+        ["npm:7.6.0", {\
+          "packageLocation": "./.yarn/cache/rxjs-npm-7.6.0-12131aee57-b3abbbfe1d.zip/node_modules/rxjs/",\
+          "packageDependencies": [\
+            ["rxjs", "npm:7.6.0"],\
+            ["tslib", "npm:2.4.1"]\
           ],\
           "linkType": "HARD"\
         }]\

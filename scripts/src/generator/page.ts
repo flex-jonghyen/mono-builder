@@ -1,8 +1,9 @@
-import { faker } from "@faker-js/faker";
+import { bufferCount, concatMap, from, map, mergeMap } from "rxjs";
 import { $, fs, path, within } from "zx";
 import { BuilderCommand } from "../commands/builder.js";
-import { CLI_ROOT, PAGE_ROOT, WORKSPACE_ROOT } from "../constants/paths.js";
+import { CLI_ROOT, PAGE_ROOT } from "../constants/paths.js";
 import { BIN_COMMAND } from "../constants/string.js";
+import { getFileName } from "../utils/getFileName.js";
 
 type Params = {
   count: number;
@@ -11,6 +12,7 @@ type Params = {
 };
 
 const NEXT_APP_PAGE_FOLDER = path.join(PAGE_ROOT, "./pages");
+const FILE_GENERATE_GROUP_COUNT = 10;
 
 export const generatePage = async ({
   count,
@@ -44,17 +46,26 @@ const cleanPage = () => {
   return fs.remove(PAGE_ROOT);
 };
 
-const stampAppPageTemplate = (count: number, type: string) => {
-  return within(async () => {
+const stampAppPageTemplate = (_count: number, type: string) => {
+  return within(() => {
     $.cwd = CLI_ROOT;
-    return Promise.all(
-      Array.from({ length: count }).map((_) => {
-        const appPageFolder = path.join(WORKSPACE_ROOT, "./app/pages");
 
-        const filePath = path.relative(CLI_ROOT, appPageFolder);
-        const fileName = faker.word.noun();
-        return $`HYGEN_OVERWRITE=true yarn hygen new ${type} --file_path=${filePath} --file_name=${fileName}`;
-      })
-    );
+    const filePath = path.relative(CLI_ROOT, NEXT_APP_PAGE_FOLDER);
+
+    from(Array.from({ length: _count }, (_, index) => index))
+      .pipe(
+        bufferCount(FILE_GENERATE_GROUP_COUNT),
+        concatMap((group) => {
+          return from(group).pipe(
+            map((index) => getFileName(index)),
+            mergeMap((fileName) => {
+              return from(
+                $`HYGEN_OVERWRITE=true yarn hygen new ${type} --file_path=${filePath} --file_name=${fileName}`
+              );
+            })
+          );
+        })
+      )
+      .subscribe();
   });
 };

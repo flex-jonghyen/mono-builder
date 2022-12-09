@@ -5,6 +5,6 @@ export class BuilderCommand extends Command {
   static paths = [[`init`], Command.Default];
 
   async execute(): Promise<number | void> {
-    await generatePage({ count: 5 });
+    await generatePage({ count: 100, clean: true });
   }
 }
