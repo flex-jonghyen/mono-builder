@@ -1,7 +1,7 @@
+import { fileURLToPath } from "node:url";
 import { path } from "zx";
-import { getDirName } from "../utils/getDirName.js";
 
-const __dirname = getDirName(import.meta.url);
+const __dirname = fileURLToPath(new URL("./", import.meta.url));
 
 export const WORKSPACE_ROOT = path.join(__dirname, "../../../");
 
