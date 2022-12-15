@@ -1,81 +1,73 @@
 import path from "node:path";
+import { from, map, merge, Observable, of, skip, take } from "rxjs";
 import { PAGE_ROOT } from "../constants/paths.js";
-import { getPageFileName } from "../helpers/getPageFileName.js";
-import { Import, ImportScope } from "../types.js";
-
-type ExternalImport = Extract<Import, { type: "external" }>;
+import { getPageFileName } from "../helpers/page-namegens.js";
+import { Export, Import, ImportScope } from "../types.js";
 
 type Params = {
   count: number;
   importScope: ImportScope;
   components?: {
-    pools: ExternalImport[];
-    perCount: number;
+    pools: Observable<Export>;
   };
   functions?: {
-    pools: ExternalImport[];
-    perCount: number;
+    pools: Observable<Export>;
   };
 };
 
 type Page = {
   filePath: string;
-  imports?: Import[];
+  imports: Observable<Import>;
 };
+
+const PER_PAGE = 10;
 
 export const getPages = ({
   count,
   importScope,
-  components = { pools: [], perCount: 0 },
-  functions = { pools: [], perCount: 0 },
-}: Params): Page[] => {
-  return Array.from({ length: count })
-    .map((_, index) => getPageFileName(index))
-    .map((fileName) => path.join(PAGE_ROOT, `./${fileName}`))
-    .map((filePath) => ({ filePath }))
-    .map((page, index) => {
-      let componentImports: Import[] = [];
+  components,
+  functions,
+}: Params): Observable<Page> => {
+  return from(Array.from({ length: count })).pipe(
+    map((_, index) => getPageFileName(index)),
+    map((fileName) => path.join(PAGE_ROOT, `./pages/${fileName}`)),
+    map((filePath) => ({ filePath })),
+    map((page, index) => {
+      const start = index * PER_PAGE;
+      let componentImports$: Observable<Import> | undefined;
       if (importScope === "all" || importScope === "component") {
-        componentImports = getListWithPage({
-          list: components.pools,
-          page: index,
-          perPage: components.perCount,
-        });
+        componentImports$ = components?.pools.pipe(
+          skip(start),
+          take(PER_PAGE),
+          map(({ exportedModules, pathOrPackageName }) => {
+            return {
+              type: "external",
+              packageName: pathOrPackageName,
+              importedModules: exportedModules,
+            };
+          })
+        );
       }
 
-      let functionImports: Import[] = [];
+      let functionImports$: Observable<Import> | undefined;
       if (importScope === "all" || importScope === "function") {
-        functionImports = getListWithPage({
-          list: functions.pools,
-          page: index,
-          perPage: functions.perCount,
-        });
+        functionImports$ = functions?.pools.pipe(
+          skip(start),
+          take(PER_PAGE),
+          map(({ exportedModules, pathOrPackageName }) => {
+            return {
+              type: "external",
+              packageName: pathOrPackageName,
+              importedModules: exportedModules,
+            };
+          })
+        );
       }
 
       return {
         ...page,
-        imports: [...componentImports, ...functionImports],
+        imports: merge(componentImports$ ?? of(), functionImports$ ?? of()),
       };
-    });
-};
-
-type GetListWithPaginationParams<Item> = {
-  list: Item[];
-  page: number;
-  perPage: number;
-};
-
-const getListWithPage = <Item>({
-  list,
-  page,
-  perPage,
-}: GetListWithPaginationParams<Item>): Item[] => {
-  const start = page * perPage;
-  const end = start + perPage;
-
-  if (start < 0 || end > list.length) {
-    return [];
-  }
-
-  return [...list].slice(start, end);
+    })
+  );
 };

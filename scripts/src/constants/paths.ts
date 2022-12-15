@@ -8,3 +8,7 @@ export const WORKSPACE_ROOT = path.join(__dirname, "../../../");
 export const CLI_ROOT = path.join(WORKSPACE_ROOT, "./scripts");
 
 export const PAGE_ROOT = path.join(WORKSPACE_ROOT, "./app");
+
+export const COMPONENT_ROOT = path.join(WORKSPACE_ROOT, "./components");
+
+export const FUNCTION_ROOT = path.join(WORKSPACE_ROOT, "./functions");
