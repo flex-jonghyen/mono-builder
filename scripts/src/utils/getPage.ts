@@ -7,10 +7,10 @@ import { Export, Import, ImportScope } from "../types.js";
 type Params = {
   count: number;
   importScope: ImportScope;
-  components?: {
+  components: {
     pools: Observable<Export>;
   };
-  functions?: {
+  functions: {
     pools: Observable<Export>;
   };
 };
@@ -36,7 +36,7 @@ export const getPages = ({
       const start = index * PER_PAGE;
       let componentImports$: Observable<Import> | undefined;
       if (importScope === "all" || importScope === "component") {
-        componentImports$ = components?.pools.pipe(
+        componentImports$ = components.pools.pipe(
           skip(start),
           take(PER_PAGE),
           map(({ exportedModules, pathOrPackageName }) => {
@@ -51,7 +51,7 @@ export const getPages = ({
 
       let functionImports$: Observable<Import> | undefined;
       if (importScope === "all" || importScope === "function") {
-        functionImports$ = functions?.pools.pipe(
+        functionImports$ = functions.pools.pipe(
           skip(start),
           take(PER_PAGE),
           map(({ exportedModules, pathOrPackageName }) => {

@@ -28,7 +28,7 @@ export const getComponents = ({
       return {
         pathOrPackageName: packageName,
         exportedModules: from(Array.from({ length: perCount })).pipe(
-          map((_, fileIndex) => getComponentFileName(fileIndex)),
+          map((_, fileIndex) => getComponentFileName(packageIndex, fileIndex)),
           map((fileName, fileIndex) => {
             const start = fileIndex * PER_PAGE;
 

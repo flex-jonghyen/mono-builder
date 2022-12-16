@@ -1,5 +1,8 @@
-export const getComponentFileName = (index: number) => {
-  return `Component${index}.tsx`;
+export const getComponentFileName = (
+  packageIndex: number,
+  fileIndex: number
+) => {
+  return `Component${packageIndex}${fileIndex}.tsx`;
 };
 
 export const getComponentPackageName = (index: number) => {

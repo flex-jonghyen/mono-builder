@@ -1,5 +1,13 @@
 import { Command, Option } from "clipanion";
+import { config } from "dotenv";
+import path from "node:path";
+import { WORKSPACE_ROOT } from "../constants/paths.js";
+import { getComponents } from "../utils/getComponents.js";
+import { getFunctions } from "../utils/getFunctions.js";
+import { getPages } from "../utils/getPage.js";
 import { parseArgs } from "../utils/parseArgs.js";
+
+config({ path: path.join(WORKSPACE_ROOT, "./.env") });
 
 export class BuilderCommand extends Command {
   static paths = [[`init`], Command.Default];
@@ -42,6 +50,31 @@ export class BuilderCommand extends Command {
         perCount: this.functionPerCount,
         importScope: this.functionImportScope,
       },
+    });
+
+    const functions$ = getFunctions({ ...functions });
+
+    const components$ = getComponents({
+      ...components,
+      functions: { pools: functions$ },
+    });
+
+    const pages$ = getPages({
+      ...pages,
+      components: { pools: components$ },
+      functions: { pools: functions$ },
+    });
+
+    pages$.subscribe(({ filePath, imports }) => {
+      console.log("filePath", filePath);
+      imports.subscribe((data) => {
+        if (data.type === "external") {
+          console.log(data.type, data.packageName);
+          data.importedModules.subscribe(({ name, type, imports }) => {
+            console.log(name, type);
+          });
+        }
+      });
     });
   }
 }

@@ -11,6 +11,7 @@ __metadata:
   dependencies:
     "@types/node": ^18.11.10
     clipanion: ^3.2.0-rc.14
+    dotenv: ^16.0.3
     hygen: ^6.2.11
     rxjs: ^7.6.0
     typescript: ^4.8.4
@@ -377,6 +378,13 @@ __metadata:
   dependencies:
     no-case: ^2.2.0
   checksum: 5c9d937245ff810a7ae788602e40c62e38cb515146ddf9b11c7f60cb02aae84859588761f1e8769d9e713609fae3c78dc99c8da9e0ee8e4d8b5c09a2fdf70328
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.0.3":
+  version: 16.0.3
+  resolution: "dotenv@npm:16.0.3"
+  checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
   languageName: node
   linkType: hard
 

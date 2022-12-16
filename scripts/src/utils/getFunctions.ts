@@ -21,7 +21,7 @@ export const getFunctions = ({
       return {
         pathOrPackageName: packageName,
         exportedModules: from(Array.from({ length: perCount })).pipe(
-          map((_, fileIndex) => getFunctionFileName(fileIndex)),
+          map((_, fileIndex) => getFunctionFileName(packageIndex, fileIndex)),
           map((fileName) => {
             return {
               type: "function",

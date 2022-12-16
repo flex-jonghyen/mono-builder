@@ -46,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@flexteam/mono-builder", "workspace:scripts"],\
             ["@types/node", "npm:18.11.10"],\
             ["clipanion", "virtual:0e3c188519c870742abe878388ef32ad90ce520a975eb9cb64c197f847f89c5ecef41b208d0a50efeaa09a423440a1262ba763497162cc0d206ff74712b3f150#npm:3.2.0-rc.14"],\
+            ["dotenv", "npm:16.0.3"],\
             ["hygen", "npm:6.2.11"],\
             ["rxjs", "npm:7.6.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
@@ -479,6 +480,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dot-case", "npm:2.1.1"],\
             ["no-case", "npm:2.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv", [\
+        ["npm:16.0.3", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.3-4cc29121dc-afcf03f373.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\

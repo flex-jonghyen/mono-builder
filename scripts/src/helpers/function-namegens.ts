@@ -1,5 +1,8 @@
-export const getFunctionFileName = (index: number) => {
-  return `Function${index}.tsx`;
+export const getFunctionFileName = (
+  packageIndex: number,
+  fileIndex: number
+) => {
+  return `getFunction${packageIndex}${fileIndex}.tsx`;
 };
 
 export const getFunctionPackageName = (index: number) => {
