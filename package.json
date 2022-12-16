@@ -4,7 +4,9 @@
   "private": true,
   "workspaces": [
     "scripts",
-    "app"
+    "app",
+    "components/*",
+    "functions/*"
   ],
   "resolutions": {
     "typescript": "4.9.3"
