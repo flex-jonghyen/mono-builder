@@ -7,7 +7,7 @@
     "app"
   ],
   "resolutions": {
-    "typescript": "4.8.4"
+    "typescript": "4.9.3"
   },
   "scripts": {
     "postinstall": "yarn dlx @yarnpkg/sdks vscode"
