@@ -21,3 +21,10 @@ export type Package = {
   type: ModuleType;
   bundled: boolean;
 };
+
+export type App = Omit<Package, "bundled" | "type">;
+
+export type Dependency = {
+  name: string;
+  version: string;
+};

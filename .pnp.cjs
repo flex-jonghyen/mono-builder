@@ -47,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.11.10"],\
             ["dotenv", "npm:16.0.3"],\
             ["hygen", "npm:6.2.11"],\
+            ["tiny-dedent", "npm:1.0.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
             ["zod", "npm:3.19.1"],\
             ["zx", "npm:7.1.1"]\
@@ -381,6 +382,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["constant-case", "npm:2.0.0"],\
             ["snake-case", "npm:2.1.0"],\
             ["upper-case", "npm:1.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["core-js", [\
+        ["npm:3.26.1", {\
+          "packageLocation": "./.yarn/unplugged/core-js-npm-3.26.1-42575888f8/node_modules/core-js/",\
+          "packageDependencies": [\
+            ["core-js", "npm:3.26.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1377,6 +1387,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/through-npm-2.3.8-df5f72a16e-a38c3e0598.zip/node_modules/through/",\
           "packageDependencies": [\
             ["through", "npm:2.3.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tiny-dedent", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/tiny-dedent-npm-1.0.2-f70fbb4413-056ce487b9.zip/node_modules/tiny-dedent/",\
+          "packageDependencies": [\
+            ["tiny-dedent", "npm:1.0.2"],\
+            ["core-js", "npm:3.26.1"]\
           ],\
           "linkType": "HARD"\
         }]\

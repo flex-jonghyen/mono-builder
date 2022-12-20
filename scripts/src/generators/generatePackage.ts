@@ -1,6 +1,7 @@
 import { fs, path } from "zx";
 import { COMPONENT_ROOT, FUNCTION_ROOT } from "../constants/paths.js";
 import { chunkPromiseAll } from "../helper/chunkPromiseAll.js";
+import { getDependenciesFromFile } from "../helper/getDependenciesFromFile.js";
 import {
   getBundledComponentPackageJson,
   getNonBundledComponentPackageJson,
@@ -23,9 +24,7 @@ export const generatePackage = async ({
   name,
   type,
 }: Params) => {
-  const dependencies = files
-    .flatMap(({ imports }) => imports)
-    .map(({ name }) => ({ name, version: "workspace:^" }));
+  const dependencies = files.flatMap(getDependenciesFromFile);
 
   const packageJsonParams = {
     packageName: `@flexteam/${name}`,

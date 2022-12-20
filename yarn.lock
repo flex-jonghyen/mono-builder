@@ -12,6 +12,7 @@ __metadata:
     "@types/node": ^18.11.10
     dotenv: ^16.0.3
     hygen: ^6.2.11
+    tiny-dedent: ^1.0.2
     typescript: ^4.8.4
     zod: ^3.19.1
     zx: ^7.1.1
@@ -306,6 +307,13 @@ __metadata:
     snake-case: "npm:^2.1.0"
     upper-case: "npm:^1.1.1"
   checksum: 893c793a425ebcd0744061c7f12650c655aae259b89d5654fb8eda42d22c3690716a4988ed03f2abe370b1ee7bfec44f8e4395e76e2f1458a8921982b15410ba
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.19.1":
+  version: 3.26.1
+  resolution: "core-js@npm:3.26.1"
+  checksum: 0a01149f51ff1e9f41d1ea49cc4c9222047949ea597189ede7c4cf8cde3b097766b9c7615acc77c86fe65b4002f20b638a133dfba7b41dba830d707aeeed45ad
   languageName: node
   linkType: hard
 
@@ -1175,6 +1183,15 @@ __metadata:
   version: 2.3.8
   resolution: "through@npm:2.3.8"
   checksum: a38c3e059853c494af95d50c072b83f8b676a9ba2818dcc5b108ef252230735c54e0185437618596c790bbba8fcdaef5b290405981ffa09dce67b1f1bf190cbd
+  languageName: node
+  linkType: hard
+
+"tiny-dedent@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "tiny-dedent@npm:1.0.2"
+  dependencies:
+    core-js: ^3.19.1
+  checksum: 056ce487b9572b149019d08bd15387f049b06011f73b86edf49ff21fd9b7da86ab3a8f123f4d40e6aec1fdf4d4a9ef5dc76163af429434b5960ac32a2209f4a8
   languageName: node
   linkType: hard
 

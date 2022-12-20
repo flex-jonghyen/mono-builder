@@ -1,7 +1,4 @@
-type Dependency = {
-  name: string;
-  version: string;
-};
+import { Dependency } from "../../types/index.js";
 
 type Params = {
   packageName: string;

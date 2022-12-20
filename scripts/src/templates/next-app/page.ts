@@ -6,7 +6,7 @@ type Params = {
   modules: Module[];
 };
 
-export const getComponent = ({ modules, name }: Params) => {
+export const getNextAppPage = ({ modules, name }: Params) => {
   const { components, functions } = groupByModuleType(modules);
 
   return `export const ${name} = () => {
