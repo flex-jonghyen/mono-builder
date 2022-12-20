@@ -63,7 +63,7 @@ export const main = () => {
         ...rest,
       })),
       moduleType: "page",
-      includeModuleCount: 10,
+      includeModuleCount: 1,
       getModuleName: (type, j) => `${type.toUpperCase()}${i}${j}`,
     });
   });

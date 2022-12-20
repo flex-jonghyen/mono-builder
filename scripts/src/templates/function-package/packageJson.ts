@@ -13,7 +13,7 @@ export const getNonBundledFunctionPackageJson = ({
     "name": "${packageName}",
     "version": "1.0.0",
     "description": "",
-    "main": "src/index.ts",
+    "main": "./src/index.ts",
     "dependencies": {
         ${dependencies
           .map(({ name, version }) => `"${name}": "${version}"`)

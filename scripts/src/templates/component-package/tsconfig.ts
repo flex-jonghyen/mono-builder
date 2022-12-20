@@ -13,7 +13,7 @@ export const getComponentTsConfig = () => {
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "incremental": true
   },
   "include": ["src"],

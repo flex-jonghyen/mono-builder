@@ -3,6 +3,9 @@ export const getNextAppConfig = () => {
     const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
+    experimental: {
+      externalDir: true,
+    },
     }
 
     module.exports = nextConfig;

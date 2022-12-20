@@ -19,6 +19,9 @@ export const getNextAppPackageJson = ({
         "start": "next start"
     },
     "dependencies": {
+      "next": "^12.3.2",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
         ${dependencies
           .map(({ name, version }) => `"${name}": "${version}"`)
           .join(",\n")}
@@ -27,9 +30,6 @@ export const getNextAppPackageJson = ({
         "@types/node": "18.11.12",
         "@types/react": "18.0.26",
         "@types/react-dom": "18.0.9",
-        "next": "13.0.6",
-        "react": "18.2.0",
-        "react-dom": "18.2.0",
         "typescript": "4.9.4"
     }
   }
