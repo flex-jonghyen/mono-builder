@@ -3,10 +3,10 @@ import { generateNextApp } from "./generators/generateNextApp.js";
 import { generatePackage } from "./generators/generatePackage.js";
 import { Package } from "./types/index.js";
 
-export const main = () => {
+export const main = async () => {
   let functionPackages: Package[] = [];
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 20; i++) {
     const functionFiles = Array.from({ length: 10 }).map((_, j) =>
       buildFile({
         path: `function-${j}.ts`,
@@ -25,12 +25,12 @@ export const main = () => {
     };
 
     functionPackages.push(functionPackage);
-    generatePackage(functionPackage);
+    await generatePackage(functionPackage);
   }
 
   let componentPackages: Package[] = [];
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 20; i++) {
     const componentFiles = Array.from({ length: 10 }).map((_, j) =>
       buildFile({
         path: `component-${j}.tsx`,
@@ -52,7 +52,7 @@ export const main = () => {
     };
 
     componentPackages.push(componentPackage);
-    generatePackage(componentPackage);
+    await generatePackage(componentPackage);
   }
 
   const pages = Array.from({ length: 10 }).map((_, i) => {
@@ -68,7 +68,7 @@ export const main = () => {
     });
   });
 
-  generateNextApp({
+  await generateNextApp({
     name: "people",
     files: pages,
   });

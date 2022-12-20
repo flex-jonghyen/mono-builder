@@ -2,6 +2,7 @@ import { fs, path } from "zx";
 import { APP_ROOT } from "../constants/paths.js";
 import { chunkPromiseAll } from "../helper/chunkPromiseAll.js";
 import { getDependenciesFromFiles } from "../helper/getDependenciesFromFile.js";
+import { makeFile } from "../helper/makeFile.js";
 import { getNextAppConfig } from "../templates/next-app/defaults/nextConfig.js";
 import { getNextAppEnvDts } from "../templates/next-app/defaults/nextEnvDts.js";
 import { getNextAppPackageJson } from "../templates/next-app/defaults/packageJson.js";
@@ -29,10 +30,10 @@ export const generateNextApp = async ({ files, name }: Pararms) => {
   // Generate Root Files
   await fs.ensureDir(appDir);
   await Promise.all([
-    fs.writeFile(path.join(appDir, "./package.json"), packageJson),
-    fs.writeFile(path.join(appDir, "./tsconfig.json"), tsconfig),
-    fs.writeFile(path.join(appDir, "./next-env.d.ts"), nextEnvDts),
-    fs.writeFile(path.join(appDir, "./next.config.js"), nextConfig),
+    makeFile(path.join(appDir, "./package.json"), packageJson),
+    makeFile(path.join(appDir, "./tsconfig.json"), tsconfig),
+    makeFile(path.join(appDir, "./next-env.d.ts"), nextEnvDts),
+    makeFile(path.join(appDir, "./next.config.js"), nextConfig),
   ]);
 
   const pageDir = path.join(appDir, "./pages");
@@ -40,7 +41,7 @@ export const generateNextApp = async ({ files, name }: Pararms) => {
 
   // Generate Page Files
   await fs.ensureDir(pageDir);
-  await fs.writeFile(path.join(pageDir, "./_app.tsx"), appPage);
+  await makeFile(path.join(pageDir, "./_app.tsx"), appPage);
   await chunkPromiseAll({
     promises: files
       .map(({ path: _path, ...rest }) => ({

@@ -20,6 +20,10 @@ export const getNextAppPage = ({ modules, name }: Params) => {
         </div>
     )
   }
+
+  ${name}.getInitialProps = async () => {
+    fetch('/api/hello').then((res) => res.json()).then((data) => console.log(data))
+  }
   
   export default ${name}`;
 };

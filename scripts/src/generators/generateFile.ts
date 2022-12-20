@@ -1,4 +1,4 @@
-import { fs } from "zx";
+import { makeFile } from "../helper/makeFile.js";
 import type { File, Module } from "../types/index.js";
 
 type Params = File & {
@@ -39,5 +39,5 @@ export const generateFile = ({
     .join("\n");
 
   const contents = [importSyntax, modulesSyntax].join("\n\n");
-  return fs.writeFile(path, contents);
+  return makeFile(path, contents);
 };

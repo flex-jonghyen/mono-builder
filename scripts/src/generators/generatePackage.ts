@@ -2,6 +2,7 @@ import { fs, path } from "zx";
 import { COMPONENT_ROOT, FUNCTION_ROOT } from "../constants/paths.js";
 import { chunkPromiseAll } from "../helper/chunkPromiseAll.js";
 import { getDependenciesFromFiles } from "../helper/getDependenciesFromFile.js";
+import { makeFile } from "../helper/makeFile.js";
 import { getComponent } from "../templates/component-package/components.js";
 import {
   getBundledComponentPackageJson,
@@ -62,8 +63,8 @@ export const generatePackage = async ({
 
   await fs.ensureDir(packageDir);
   await Promise.all([
-    fs.writeFile(path.join(packageDir, "./package.json"), packageJson),
-    fs.writeFile(path.join(packageDir, "./tsconfig.json"), tsconfig),
+    makeFile(path.join(packageDir, "./package.json"), packageJson),
+    makeFile(path.join(packageDir, "./tsconfig.json"), tsconfig),
   ]);
 
   const sourceDir = path.join(packageDir, "./src");
@@ -85,5 +86,5 @@ export const generatePackage = async ({
     .map(({ path }) => path.replace(/\.tsx?$/, ""))
     .map((path) => `export * from "./${path}";`)
     .join("\n");
-  await fs.writeFile(indexFilePath, indexFile);
+  await makeFile(indexFilePath, indexFile);
 };
