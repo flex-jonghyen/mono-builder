@@ -16,6 +16,90 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:."\
       },\
       {\
+        "name": "@flex-apps/people",\
+        "reference": "workspace:apps/people"\
+      },\
+      {\
+        "name": "@flex-components/component-0",\
+        "reference": "workspace:components/component-0"\
+      },\
+      {\
+        "name": "@flex-components/component-1",\
+        "reference": "workspace:components/component-1"\
+      },\
+      {\
+        "name": "@flex-components/component-2",\
+        "reference": "workspace:components/component-2"\
+      },\
+      {\
+        "name": "@flex-components/component-3",\
+        "reference": "workspace:components/component-3"\
+      },\
+      {\
+        "name": "@flex-components/component-4",\
+        "reference": "workspace:components/component-4"\
+      },\
+      {\
+        "name": "@flex-components/component-5",\
+        "reference": "workspace:components/component-5"\
+      },\
+      {\
+        "name": "@flex-components/component-6",\
+        "reference": "workspace:components/component-6"\
+      },\
+      {\
+        "name": "@flex-components/component-7",\
+        "reference": "workspace:components/component-7"\
+      },\
+      {\
+        "name": "@flex-components/component-8",\
+        "reference": "workspace:components/component-8"\
+      },\
+      {\
+        "name": "@flex-components/component-9",\
+        "reference": "workspace:components/component-9"\
+      },\
+      {\
+        "name": "@flexteam/function-0",\
+        "reference": "workspace:functions/function-0"\
+      },\
+      {\
+        "name": "@flexteam/function-1",\
+        "reference": "workspace:functions/function-1"\
+      },\
+      {\
+        "name": "@flexteam/function-2",\
+        "reference": "workspace:functions/function-2"\
+      },\
+      {\
+        "name": "@flexteam/function-3",\
+        "reference": "workspace:functions/function-3"\
+      },\
+      {\
+        "name": "@flexteam/function-4",\
+        "reference": "workspace:functions/function-4"\
+      },\
+      {\
+        "name": "@flexteam/function-5",\
+        "reference": "workspace:functions/function-5"\
+      },\
+      {\
+        "name": "@flexteam/function-6",\
+        "reference": "workspace:functions/function-6"\
+      },\
+      {\
+        "name": "@flexteam/function-7",\
+        "reference": "workspace:functions/function-7"\
+      },\
+      {\
+        "name": "@flexteam/function-8",\
+        "reference": "workspace:functions/function-8"\
+      },\
+      {\
+        "name": "@flexteam/function-9",\
+        "reference": "workspace:functions/function-9"\
+      },\
+      {\
         "name": "@flexteam/mono-builder",\
         "reference": "workspace:scripts"\
       }\
@@ -23,6 +107,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
+      ["@flex-apps/people", ["workspace:apps/people"]],\
+      ["@flex-components/component-0", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-0", "workspace:components/component-0"]],\
+      ["@flex-components/component-1", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-1", "workspace:components/component-1"]],\
+      ["@flex-components/component-2", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-2", "workspace:components/component-2"]],\
+      ["@flex-components/component-3", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-3", "workspace:components/component-3"]],\
+      ["@flex-components/component-4", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-4", "workspace:components/component-4"]],\
+      ["@flex-components/component-5", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-5", "workspace:components/component-5"]],\
+      ["@flex-components/component-6", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-6", "workspace:components/component-6"]],\
+      ["@flex-components/component-7", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-7", "workspace:components/component-7"]],\
+      ["@flex-components/component-8", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-8", "workspace:components/component-8"]],\
+      ["@flex-components/component-9", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9", "workspace:components/component-9"]],\
+      ["@flexteam/function-0", ["workspace:functions/function-0"]],\
+      ["@flexteam/function-1", ["workspace:functions/function-1"]],\
+      ["@flexteam/function-2", ["workspace:functions/function-2"]],\
+      ["@flexteam/function-3", ["workspace:functions/function-3"]],\
+      ["@flexteam/function-4", ["workspace:functions/function-4"]],\
+      ["@flexteam/function-5", ["workspace:functions/function-5"]],\
+      ["@flexteam/function-6", ["workspace:functions/function-6"]],\
+      ["@flexteam/function-7", ["workspace:functions/function-7"]],\
+      ["@flexteam/function-8", ["workspace:functions/function-8"]],\
+      ["@flexteam/function-9", ["workspace:functions/function-9"]],\
       ["@flexteam/mono-builder", ["workspace:scripts"]],\
       ["esm-test", ["workspace:."]]\
     ],\
@@ -34,6 +139,632 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@flexteam/mono-builder", "workspace:scripts"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-apps/people", [\
+        ["workspace:apps/people", {\
+          "packageLocation": "./apps/people/",\
+          "packageDependencies": [\
+            ["@flex-apps/people", "workspace:apps/people"],\
+            ["@flex-components/component-0", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-0"],\
+            ["@flex-components/component-1", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-1"],\
+            ["@flex-components/component-2", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-2"],\
+            ["@flex-components/component-3", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-3"],\
+            ["@flex-components/component-4", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-4"],\
+            ["@flex-components/component-5", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-5"],\
+            ["@flex-components/component-6", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-6"],\
+            ["@flex-components/component-7", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-7"],\
+            ["@flex-components/component-8", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-8"],\
+            ["@flex-components/component-9", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9"],\
+            ["@types/node", "npm:18.11.12"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["next", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:13.0.6"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-0", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-0-virtual-59dd315e48/1/components/component-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-0", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-0"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-0", {\
+          "packageLocation": "./components/component-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-0", "workspace:components/component-0"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-1", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-1-virtual-fa9e163e7e/1/components/component-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-1", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-1"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-1", {\
+          "packageLocation": "./components/component-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-1", "workspace:components/component-1"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-2", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-2", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-2-virtual-d74f3f6269/1/components/component-2/",\
+          "packageDependencies": [\
+            ["@flex-components/component-2", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-2"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-2", {\
+          "packageLocation": "./components/component-2/",\
+          "packageDependencies": [\
+            ["@flex-components/component-2", "workspace:components/component-2"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-3", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-3", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-3-virtual-a7d8795dc5/1/components/component-3/",\
+          "packageDependencies": [\
+            ["@flex-components/component-3", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-3"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-3", {\
+          "packageLocation": "./components/component-3/",\
+          "packageDependencies": [\
+            ["@flex-components/component-3", "workspace:components/component-3"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-4", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-4", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-4-virtual-592e26a0b7/1/components/component-4/",\
+          "packageDependencies": [\
+            ["@flex-components/component-4", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-4"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-4", {\
+          "packageLocation": "./components/component-4/",\
+          "packageDependencies": [\
+            ["@flex-components/component-4", "workspace:components/component-4"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-5", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-5", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-5-virtual-1cd5db45d6/1/components/component-5/",\
+          "packageDependencies": [\
+            ["@flex-components/component-5", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-5"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-5", {\
+          "packageLocation": "./components/component-5/",\
+          "packageDependencies": [\
+            ["@flex-components/component-5", "workspace:components/component-5"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-6", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-6", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-6-virtual-bb561aa1b4/1/components/component-6/",\
+          "packageDependencies": [\
+            ["@flex-components/component-6", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-6"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-6", {\
+          "packageLocation": "./components/component-6/",\
+          "packageDependencies": [\
+            ["@flex-components/component-6", "workspace:components/component-6"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-7", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-7", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-7-virtual-b8480ac4da/1/components/component-7/",\
+          "packageDependencies": [\
+            ["@flex-components/component-7", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-7"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-7", {\
+          "packageLocation": "./components/component-7/",\
+          "packageDependencies": [\
+            ["@flex-components/component-7", "workspace:components/component-7"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-8", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-8", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-8-virtual-1619b0bdaf/1/components/component-8/",\
+          "packageDependencies": [\
+            ["@flex-components/component-8", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-8"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-8", {\
+          "packageLocation": "./components/component-8/",\
+          "packageDependencies": [\
+            ["@flex-components/component-8", "workspace:components/component-8"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-9", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-9-virtual-253db48c04/1/components/component-9/",\
+          "packageDependencies": [\
+            ["@flex-components/component-9", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-9", {\
+          "packageLocation": "./components/component-9/",\
+          "packageDependencies": [\
+            ["@flex-components/component-9", "workspace:components/component-9"],\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flexteam/function-0", [\
+        ["workspace:functions/function-0", {\
+          "packageLocation": "./functions/function-0/",\
+          "packageDependencies": [\
+            ["@flexteam/function-0", "workspace:functions/function-0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flexteam/function-1", [\
+        ["workspace:functions/function-1", {\
+          "packageLocation": "./functions/function-1/",\
+          "packageDependencies": [\
+            ["@flexteam/function-1", "workspace:functions/function-1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flexteam/function-2", [\
+        ["workspace:functions/function-2", {\
+          "packageLocation": "./functions/function-2/",\
+          "packageDependencies": [\
+            ["@flexteam/function-2", "workspace:functions/function-2"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flexteam/function-3", [\
+        ["workspace:functions/function-3", {\
+          "packageLocation": "./functions/function-3/",\
+          "packageDependencies": [\
+            ["@flexteam/function-3", "workspace:functions/function-3"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flexteam/function-4", [\
+        ["workspace:functions/function-4", {\
+          "packageLocation": "./functions/function-4/",\
+          "packageDependencies": [\
+            ["@flexteam/function-4", "workspace:functions/function-4"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flexteam/function-5", [\
+        ["workspace:functions/function-5", {\
+          "packageLocation": "./functions/function-5/",\
+          "packageDependencies": [\
+            ["@flexteam/function-5", "workspace:functions/function-5"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flexteam/function-6", [\
+        ["workspace:functions/function-6", {\
+          "packageLocation": "./functions/function-6/",\
+          "packageDependencies": [\
+            ["@flexteam/function-6", "workspace:functions/function-6"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flexteam/function-7", [\
+        ["workspace:functions/function-7", {\
+          "packageLocation": "./functions/function-7/",\
+          "packageDependencies": [\
+            ["@flexteam/function-7", "workspace:functions/function-7"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flexteam/function-8", [\
+        ["workspace:functions/function-8", {\
+          "packageLocation": "./functions/function-8/",\
+          "packageDependencies": [\
+            ["@flexteam/function-8", "workspace:functions/function-8"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flexteam/function-9", [\
+        ["workspace:functions/function-9", {\
+          "packageLocation": "./functions/function-9/",\
+          "packageDependencies": [\
+            ["@flexteam/function-9", "workspace:functions/function-9"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "linkType": "SOFT"\
@@ -53,6 +784,132 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["zx", "npm:7.1.1"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@next/env", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/cache/@next-env-npm-13.0.6-be9cb9c2aa-89ca41c63d.zip/node_modules/@next/env/",\
+          "packageDependencies": [\
+            ["@next/env", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-android-arm-eabi", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-android-arm-eabi-npm-13.0.6-98ad9ae8c1/node_modules/@next/swc-android-arm-eabi/",\
+          "packageDependencies": [\
+            ["@next/swc-android-arm-eabi", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-android-arm64", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-android-arm64-npm-13.0.6-11e5ce4d33/node_modules/@next/swc-android-arm64/",\
+          "packageDependencies": [\
+            ["@next/swc-android-arm64", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-darwin-arm64", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-darwin-arm64-npm-13.0.6-bc224cb008/node_modules/@next/swc-darwin-arm64/",\
+          "packageDependencies": [\
+            ["@next/swc-darwin-arm64", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-darwin-x64", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-darwin-x64-npm-13.0.6-64fbc61f86/node_modules/@next/swc-darwin-x64/",\
+          "packageDependencies": [\
+            ["@next/swc-darwin-x64", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-freebsd-x64", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-freebsd-x64-npm-13.0.6-2da388c8c6/node_modules/@next/swc-freebsd-x64/",\
+          "packageDependencies": [\
+            ["@next/swc-freebsd-x64", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-linux-arm-gnueabihf", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-linux-arm-gnueabihf-npm-13.0.6-ab7bddf07f/node_modules/@next/swc-linux-arm-gnueabihf/",\
+          "packageDependencies": [\
+            ["@next/swc-linux-arm-gnueabihf", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-linux-arm64-gnu", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-linux-arm64-gnu-npm-13.0.6-0af6a6ad3e/node_modules/@next/swc-linux-arm64-gnu/",\
+          "packageDependencies": [\
+            ["@next/swc-linux-arm64-gnu", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-linux-arm64-musl", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-linux-arm64-musl-npm-13.0.6-3f587dffb7/node_modules/@next/swc-linux-arm64-musl/",\
+          "packageDependencies": [\
+            ["@next/swc-linux-arm64-musl", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-linux-x64-gnu", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-linux-x64-gnu-npm-13.0.6-48cb64aafc/node_modules/@next/swc-linux-x64-gnu/",\
+          "packageDependencies": [\
+            ["@next/swc-linux-x64-gnu", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-linux-x64-musl", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-linux-x64-musl-npm-13.0.6-c3b900c431/node_modules/@next/swc-linux-x64-musl/",\
+          "packageDependencies": [\
+            ["@next/swc-linux-x64-musl", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-win32-arm64-msvc", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-win32-arm64-msvc-npm-13.0.6-7665fb6991/node_modules/@next/swc-win32-arm64-msvc/",\
+          "packageDependencies": [\
+            ["@next/swc-win32-arm64-msvc", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-win32-ia32-msvc", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-win32-ia32-msvc-npm-13.0.6-d29a932b30/node_modules/@next/swc-win32-ia32-msvc/",\
+          "packageDependencies": [\
+            ["@next/swc-win32-ia32-msvc", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@next/swc-win32-x64-msvc", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-win32-x64-msvc-npm-13.0.6-10366d0ee4/node_modules/@next/swc-win32-x64-msvc/",\
+          "packageDependencies": [\
+            ["@next/swc-win32-x64-msvc", "npm:13.0.6"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@nodelib/fs.scandir", [\
@@ -82,6 +939,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nodelib/fs.walk", "npm:1.2.8"],\
             ["@nodelib/fs.scandir", "npm:2.1.5"],\
             ["fastq", "npm:1.14.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@swc/helpers", [\
+        ["npm:0.4.14", {\
+          "packageLocation": "./.yarn/cache/@swc-helpers-npm-0.4.14-f806c3fb16-273fd3f3fc.zip/node_modules/@swc/helpers/",\
+          "packageDependencies": [\
+            ["@swc/helpers", "npm:0.4.14"],\
+            ["tslib", "npm:2.4.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -120,10 +987,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
+        ["npm:18.11.12", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.12-3e4f66dc1e-6c67f0998a.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:18.11.12"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:18.11.15", {\
           "packageLocation": "./.yarn/cache/@types-node-npm-18.11.15-556d6408a5-cae8692a5c.zip/node_modules/@types/node/",\
           "packageDependencies": [\
             ["@types/node", "npm:18.11.15"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/prop-types", [\
+        ["npm:15.7.5", {\
+          "packageLocation": "./.yarn/cache/@types-prop-types-npm-15.7.5-2aa48aa177-5b43b8b154.zip/node_modules/@types/prop-types/",\
+          "packageDependencies": [\
+            ["@types/prop-types", "npm:15.7.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -133,6 +1016,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-ps-tree-npm-1.1.2-2a246ae059-575c3b2b83.zip/node_modules/@types/ps-tree/",\
           "packageDependencies": [\
             ["@types/ps-tree", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/react", [\
+        ["npm:18.0.26", {\
+          "packageLocation": "./.yarn/cache/@types-react-npm-18.0.26-d708995a34-b62f0ea3cd.zip/node_modules/@types/react/",\
+          "packageDependencies": [\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/prop-types", "npm:15.7.5"],\
+            ["@types/scheduler", "npm:0.16.2"],\
+            ["csstype", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/react-dom", [\
+        ["npm:18.0.9", {\
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.0.9-e52458db76-e744e3feba.zip/node_modules/@types/react-dom/",\
+          "packageDependencies": [\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["@types/react", "npm:18.0.26"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/scheduler", [\
+        ["npm:0.16.2", {\
+          "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.2-ba3a7d8c68-b6b4dcfeae.zip/node_modules/@types/scheduler/",\
+          "packageDependencies": [\
+            ["@types/scheduler", "npm:0.16.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -274,6 +1188,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["caniuse-lite", [\
+        ["npm:1.0.30001439", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001439-dd9478bf75-3912dd536c.zip/node_modules/caniuse-lite/",\
+          "packageDependencies": [\
+            ["caniuse-lite", "npm:1.0.30001439"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["chalk", [\
         ["npm:4.1.2", {\
           "packageLocation": "./.yarn/cache/chalk-npm-4.1.2-ba8b67ab80-fe75c9d5c7.zip/node_modules/chalk/",\
@@ -334,6 +1257,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/cli-spinners-npm-2.7.0-ace95632f5-a9afaf73f5.zip/node_modules/cli-spinners/",\
           "packageDependencies": [\
             ["cli-spinners", "npm:2.7.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["client-only", [\
+        ["npm:0.0.1", {\
+          "packageLocation": "./.yarn/cache/client-only-npm-0.0.1-07d3e9505c-0c16bf660d.zip/node_modules/client-only/",\
+          "packageDependencies": [\
+            ["client-only", "npm:0.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -403,6 +1335,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["path-key", "npm:3.1.1"],\
             ["shebang-command", "npm:2.0.0"],\
             ["which", "npm:2.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["csstype", [\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/csstype-npm-3.1.1-3857baf48b-1f7b4f5fdd.zip/node_modules/csstype/",\
+          "packageDependencies": [\
+            ["csstype", "npm:3.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -903,6 +1844,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["js-tokens", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-8a95213a5a.zip/node_modules/js-tokens/",\
+          "packageDependencies": [\
+            ["js-tokens", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["js-yaml", [\
         ["npm:3.14.1", {\
           "packageLocation": "./.yarn/cache/js-yaml-npm-3.14.1-b968c6095e-bef146085f.zip/node_modules/js-yaml/",\
@@ -932,6 +1882,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["log-symbols", "npm:4.1.0"],\
             ["chalk", "npm:4.1.2"],\
             ["is-unicode-supported", "npm:0.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["loose-envify", [\
+        ["npm:1.4.0", {\
+          "packageLocation": "./.yarn/cache/loose-envify-npm-1.4.0-6307b72ccf-6517e24e0c.zip/node_modules/loose-envify/",\
+          "packageDependencies": [\
+            ["loose-envify", "npm:1.4.0"],\
+            ["js-tokens", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1034,6 +1994,71 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/ms-npm-2.1.2-ec0c1512ff-673cdb2c31.zip/node_modules/ms/",\
           "packageDependencies": [\
             ["ms", "npm:2.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["nanoid", [\
+        ["npm:3.3.4", {\
+          "packageLocation": "./.yarn/cache/nanoid-npm-3.3.4-3d250377d6-2fddd6dee9.zip/node_modules/nanoid/",\
+          "packageDependencies": [\
+            ["nanoid", "npm:3.3.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["next", [\
+        ["npm:13.0.6", {\
+          "packageLocation": "./.yarn/cache/next-npm-13.0.6-d05b793bd2-2de1d9975f.zip/node_modules/next/",\
+          "packageDependencies": [\
+            ["next", "npm:13.0.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:13.0.6", {\
+          "packageLocation": "./.yarn/__virtual__/next-virtual-b9571e0221/0/cache/next-npm-13.0.6-d05b793bd2-2de1d9975f.zip/node_modules/next/",\
+          "packageDependencies": [\
+            ["next", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:13.0.6"],\
+            ["@next/env", "npm:13.0.6"],\
+            ["@next/swc-android-arm-eabi", "npm:13.0.6"],\
+            ["@next/swc-android-arm64", "npm:13.0.6"],\
+            ["@next/swc-darwin-arm64", "npm:13.0.6"],\
+            ["@next/swc-darwin-x64", "npm:13.0.6"],\
+            ["@next/swc-freebsd-x64", "npm:13.0.6"],\
+            ["@next/swc-linux-arm-gnueabihf", "npm:13.0.6"],\
+            ["@next/swc-linux-arm64-gnu", "npm:13.0.6"],\
+            ["@next/swc-linux-arm64-musl", "npm:13.0.6"],\
+            ["@next/swc-linux-x64-gnu", "npm:13.0.6"],\
+            ["@next/swc-linux-x64-musl", "npm:13.0.6"],\
+            ["@next/swc-win32-arm64-msvc", "npm:13.0.6"],\
+            ["@next/swc-win32-ia32-msvc", "npm:13.0.6"],\
+            ["@next/swc-win32-x64-msvc", "npm:13.0.6"],\
+            ["@swc/helpers", "npm:0.4.14"],\
+            ["@types/fibers", null],\
+            ["@types/node-sass", null],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["@types/sass", null],\
+            ["caniuse-lite", "npm:1.0.30001439"],\
+            ["fibers", null],\
+            ["node-sass", null],\
+            ["postcss", "npm:8.4.14"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["sass", null],\
+            ["styled-jsx", "virtual:b9571e02219cfacc45e361f2214e97f439bd4625f567253943d4c20c8ba4d33399b4e38ec931ed9928333ae9286e2601d5dfbc6f2156bc7dde18916a9bd24e3a#npm:5.1.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/fibers",\
+            "@types/node-sass",\
+            "@types/react-dom",\
+            "@types/react",\
+            "@types/sass",\
+            "fibers",\
+            "node-sass",\
+            "react-dom",\
+            "react",\
+            "sass"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1166,11 +2191,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["picocolors", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/picocolors-npm-1.0.0-d81e0b1927-a2e8092dd8.zip/node_modules/picocolors/",\
+          "packageDependencies": [\
+            ["picocolors", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["picomatch", [\
         ["npm:2.3.1", {\
           "packageLocation": "./.yarn/cache/picomatch-npm-2.3.1-c782cfd986-050c865ce8.zip/node_modules/picomatch/",\
           "packageDependencies": [\
             ["picomatch", "npm:2.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["postcss", [\
+        ["npm:8.4.14", {\
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.14-c0d448b728-fe58766ff3.zip/node_modules/postcss/",\
+          "packageDependencies": [\
+            ["postcss", "npm:8.4.14"],\
+            ["nanoid", "npm:3.3.4"],\
+            ["picocolors", "npm:1.0.0"],\
+            ["source-map-js", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1190,6 +2236,40 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/queue-microtask-npm-1.2.3-fcc98e4e2d-b676f8c040.zip/node_modules/queue-microtask/",\
           "packageDependencies": [\
             ["queue-microtask", "npm:1.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react", [\
+        ["npm:18.2.0", {\
+          "packageLocation": "./.yarn/cache/react-npm-18.2.0-1eae08fee2-88e38092da.zip/node_modules/react/",\
+          "packageDependencies": [\
+            ["react", "npm:18.2.0"],\
+            ["loose-envify", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-dom", [\
+        ["npm:18.2.0", {\
+          "packageLocation": "./.yarn/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
+          "packageDependencies": [\
+            ["react-dom", "npm:18.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-0b344f538f/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
+          "packageDependencies": [\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["react", "npm:18.2.0"],\
+            ["scheduler", "npm:0.23.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1241,6 +2321,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/safe-buffer-npm-5.2.1-3481c8aa9b-b99c4b41fd.zip/node_modules/safe-buffer/",\
           "packageDependencies": [\
             ["safe-buffer", "npm:5.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["scheduler", [\
+        ["npm:0.23.0", {\
+          "packageLocation": "./.yarn/cache/scheduler-npm-0.23.0-a379a6bc3b-d79192eeaa.zip/node_modules/scheduler/",\
+          "packageDependencies": [\
+            ["scheduler", "npm:0.23.0"],\
+            ["loose-envify", "npm:1.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1303,6 +2393,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["source-map-js", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/source-map-js-npm-1.0.2-ee4f9f9b30-c049a7fc4d.zip/node_modules/source-map-js/",\
+          "packageDependencies": [\
+            ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["split", [\
         ["npm:0.3.3", {\
           "packageLocation": "./.yarn/cache/split-npm-0.3.3-847dc2ba97-2e076634c9.zip/node_modules/split/",\
@@ -1357,6 +2456,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/strip-final-newline-npm-2.0.0-340c4f7c66-69412b5e25.zip/node_modules/strip-final-newline/",\
           "packageDependencies": [\
             ["strip-final-newline", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["styled-jsx", [\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/cache/styled-jsx-npm-5.1.0-53270b9f38-e5b70476fd.zip/node_modules/styled-jsx/",\
+          "packageDependencies": [\
+            ["styled-jsx", "npm:5.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:b9571e02219cfacc45e361f2214e97f439bd4625f567253943d4c20c8ba4d33399b4e38ec931ed9928333ae9286e2601d5dfbc6f2156bc7dde18916a9bd24e3a#npm:5.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/styled-jsx-virtual-572b32978b/0/cache/styled-jsx-npm-5.1.0-53270b9f38-e5b70476fd.zip/node_modules/styled-jsx/",\
+          "packageDependencies": [\
+            ["styled-jsx", "virtual:b9571e02219cfacc45e361f2214e97f439bd4625f567253943d4c20c8ba4d33399b4e38ec931ed9928333ae9286e2601d5dfbc6f2156bc7dde18916a9bd24e3a#npm:5.1.0"],\
+            ["@babel/core", null],\
+            ["@types/babel-plugin-macros", null],\
+            ["@types/babel__core", null],\
+            ["@types/react", "npm:18.0.26"],\
+            ["babel-plugin-macros", null],\
+            ["client-only", "npm:0.0.1"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@babel/core",\
+            "@types/babel-plugin-macros",\
+            "@types/babel__core",\
+            "@types/react",\
+            "babel-plugin-macros",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1418,6 +2548,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["to-regex-range", "npm:5.0.1"],\
             ["is-number", "npm:7.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tslib", [\
+        ["npm:2.4.1", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-2.4.1-36f0ed04db-19480d6e03.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:2.4.1"]\
           ],\
           "linkType": "HARD"\
         }]\

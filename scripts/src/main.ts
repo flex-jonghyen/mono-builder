@@ -1,4 +1,5 @@
 import { buildFile } from "./builders/buildFile.js";
+import { generateNextApp } from "./generators/generateNextApp.js";
 import { generatePackage } from "./generators/generatePackage.js";
 import { Package } from "./types/index.js";
 
@@ -27,8 +28,10 @@ export const main = () => {
     generatePackage(functionPackage);
   }
 
+  let componentPackages: Package[] = [];
+
   for (let i = 0; i < 10; i++) {
-    const components = Array.from({ length: 10 }).map((_, j) =>
+    const componentFiles = Array.from({ length: 10 }).map((_, j) =>
       buildFile({
         path: `component-${j}.tsx`,
         imports: functionPackages.map(({ name, ...rest }) => ({
@@ -41,13 +44,34 @@ export const main = () => {
       })
     );
 
-    generatePackage({
+    const componentPackage: Package = {
       type: "component",
       name: `component-${i}`,
-      files: components,
+      files: componentFiles,
       bundled: false,
-    });
+    };
+
+    componentPackages.push(componentPackage);
+    generatePackage(componentPackage);
   }
+
+  const pages = Array.from({ length: 10 }).map((_, i) => {
+    return buildFile({
+      path: `page-${i}.tsx`,
+      imports: componentPackages.map(({ name, ...rest }) => ({
+        name: `@flex-components/${name}`,
+        ...rest,
+      })),
+      moduleType: "page",
+      includeModuleCount: 10,
+      getModuleName: (type, j) => `${type.toUpperCase()}${i}${j}`,
+    });
+  });
+
+  generateNextApp({
+    name: "people",
+    files: pages,
+  });
 };
 
 main();

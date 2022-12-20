@@ -31,7 +31,7 @@ export const getNextAppPackageJson = ({
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "typescript": "4.9.4"
-    },
+    }
   }
 `;
 };

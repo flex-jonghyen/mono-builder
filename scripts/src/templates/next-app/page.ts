@@ -9,7 +9,7 @@ type Params = {
 export const getNextAppPage = ({ modules, name }: Params) => {
   const { components, functions } = groupByModuleType(modules);
 
-  return `export const ${name} = () => {
+  return `const ${name} = () => {
     ${functions.map((functionName) => `${functionName}();`).join("\n")}
     return (
         <div>
@@ -19,5 +19,7 @@ export const getNextAppPage = ({ modules, name }: Params) => {
             .join("\n")}
         </div>
     )
-  }`;
+  }
+  
+  export default ${name}`;
 };

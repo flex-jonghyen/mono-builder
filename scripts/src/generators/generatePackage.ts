@@ -1,12 +1,14 @@
 import { fs, path } from "zx";
 import { COMPONENT_ROOT, FUNCTION_ROOT } from "../constants/paths.js";
 import { chunkPromiseAll } from "../helper/chunkPromiseAll.js";
-import { getDependenciesFromFile } from "../helper/getDependenciesFromFile.js";
+import { getDependenciesFromFiles } from "../helper/getDependenciesFromFile.js";
+import { getComponent } from "../templates/component-package/components.js";
 import {
   getBundledComponentPackageJson,
   getNonBundledComponentPackageJson,
 } from "../templates/component-package/packageJson.js";
 import { getComponentTsConfig } from "../templates/component-package/tsconfig.js";
+import { getFunction } from "../templates/function-package/functions.js";
 import {
   getBundledFunctionPackageJson,
   getNonBundledFunctionPackageJson,
@@ -24,23 +26,28 @@ export const generatePackage = async ({
   name,
   type,
 }: Params) => {
-  const dependencies = files.flatMap(getDependenciesFromFile);
-
-  const packageJsonParams = {
-    packageName: `@flexteam/${name}`,
-    dependencies,
-  };
+  const dependencies = getDependenciesFromFiles(files);
 
   let packageJson = "";
   let tsconfig = "";
 
   if (type === "component") {
+    const packageJsonParams = {
+      packageName: `@flex-components/${name}`,
+      dependencies,
+    };
+
     packageJson = bundled
       ? getBundledComponentPackageJson(packageJsonParams)
       : getNonBundledComponentPackageJson(packageJsonParams);
 
     tsconfig = getComponentTsConfig();
   } else {
+    const packageJsonParams = {
+      packageName: `@flexteam/${name}`,
+      dependencies,
+    };
+
     packageJson = bundled
       ? getBundledFunctionPackageJson(packageJsonParams)
       : getNonBundledFunctionPackageJson(packageJsonParams);
@@ -60,6 +67,8 @@ export const generatePackage = async ({
   ]);
 
   const sourceDir = path.join(packageDir, "./src");
+  const getFileTemplate = type === "component" ? getComponent : getFunction;
+
   await fs.ensureDir(sourceDir);
   await chunkPromiseAll({
     promises: files
@@ -67,7 +76,7 @@ export const generatePackage = async ({
         path: path.join(sourceDir, `./${_path}`),
         ...rest,
       }))
-      .map(generateFile),
+      .map((file) => generateFile({ ...file, getFileTemplate })),
     chunk: 10,
   });
 

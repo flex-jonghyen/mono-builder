@@ -1,4 +1,4 @@
-export type ModuleType = "component" | "function";
+export type ModuleType = "component" | "function" | "page";
 
 export type Module = {
   name: string;

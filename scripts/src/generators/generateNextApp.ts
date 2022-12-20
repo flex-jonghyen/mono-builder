@@ -1,16 +1,20 @@
 import { fs, path } from "zx";
 import { APP_ROOT } from "../constants/paths.js";
-import { getDependenciesFromFile } from "../helper/getDependenciesFromFile.js";
+import { chunkPromiseAll } from "../helper/chunkPromiseAll.js";
+import { getDependenciesFromFiles } from "../helper/getDependenciesFromFile.js";
+import { getNextAppConfig } from "../templates/next-app/defaults/nextConfig.js";
 import { getNextAppEnvDts } from "../templates/next-app/defaults/nextEnvDts.js";
 import { getNextAppPackageJson } from "../templates/next-app/defaults/packageJson.js";
 import { getNextAppTsConfig } from "../templates/next-app/defaults/tsconfig.js";
 import { getNextAppAppPage } from "../templates/next-app/defaults/_app.js";
+import { getNextAppPage } from "../templates/next-app/page.js";
 import { App } from "../types/index.js";
+import { generateFile } from "./generateFile.js";
 
 type Pararms = App;
 
 export const generateNextApp = async ({ files, name }: Pararms) => {
-  const dependencies = files.flatMap(getDependenciesFromFile);
+  const dependencies = getDependenciesFromFiles(files);
 
   const packageJson = getNextAppPackageJson({
     packageName: `@flex-apps/${name}`,
@@ -18,7 +22,7 @@ export const generateNextApp = async ({ files, name }: Pararms) => {
   });
   const tsconfig = getNextAppTsConfig();
   const nextEnvDts = getNextAppEnvDts();
-  const nextConfig = getNextAppTsConfig();
+  const nextConfig = getNextAppConfig();
 
   const appDir = path.join(APP_ROOT, `./${name}`);
 
@@ -32,15 +36,20 @@ export const generateNextApp = async ({ files, name }: Pararms) => {
   ]);
 
   const pageDir = path.join(appDir, "./pages");
-
   const appPage = getNextAppAppPage();
-  const pageFiles = files.map(({ path: _path, ...rest }) => ({
-    path: path.join(pageDir, `${_path}`),
-    ...rest,
-  }));
 
   // Generate Page Files
-
   await fs.ensureDir(pageDir);
-  await Promise.all([fs.writeFile(path.join(pageDir, "./_app.tsx"), appPage)]);
+  await fs.writeFile(path.join(pageDir, "./_app.tsx"), appPage);
+  await chunkPromiseAll({
+    promises: files
+      .map(({ path: _path, ...rest }) => ({
+        path: path.join(pageDir, `${_path}`),
+        ...rest,
+      }))
+      .map((file) =>
+        generateFile({ ...file, getFileTemplate: getNextAppPage })
+      ),
+    chunk: 10,
+  });
 };

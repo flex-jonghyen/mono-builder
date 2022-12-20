@@ -1,14 +1,15 @@
 import { fs } from "zx";
-import { getComponent } from "../templates/component-package/components.js";
-import { getFunction } from "../templates/function-package/functions.js";
-import type { File } from "../types/index.js";
+import type { File, Module } from "../types/index.js";
 
-type Params = File;
+type Params = File & {
+  getFileTemplate: (params: { name: string; modules: Module[] }) => string;
+};
 
 export const generateFile = ({
   exports,
   imports,
   path,
+  getFileTemplate,
 }: Params): Promise<void> => {
   const flattenImports = imports.map(({ name, files }) => {
     const modules = files.flatMap(({ exports }) => exports);
@@ -33,12 +34,7 @@ export const generateFile = ({
 
       const params = { name, modules: target };
 
-      switch (type) {
-        case "component":
-          return getComponent(params);
-        case "function":
-          return getFunction(params);
-      }
+      return getFileTemplate(params);
     })
     .join("\n");
 
