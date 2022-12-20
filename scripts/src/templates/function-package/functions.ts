@@ -11,7 +11,6 @@ export const getFunction = ({ modules, name }: Params) => {
   }
 
   return `export const ${name} = () => {
-  ${modules.map(({ name: functionName }) => `${functionName}();`).join("\n")}
-  return 1 + 1;
+  ${modules.map(({ name: functionName }) => `${functionName};`).join("\n")}
 }`;
 };

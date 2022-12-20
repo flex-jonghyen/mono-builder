@@ -9,10 +9,13 @@ type Params = {
 export const getNextAppPage = ({ modules, name }: Params) => {
   const { components, functions } = groupByModuleType(modules);
 
-  return `const ${name} = () => {
+  return `
+  type Props = { ditto: string }
+  const ${name} = ({ ditto }: Props) => {
     ${functions.map((functionName) => `${functionName}();`).join("\n")}
     return (
         <div>
+          <h1>{ditto}</h1>
           ${name}
           ${components
             .map((componentName) => `<${componentName} />`)
@@ -22,7 +25,13 @@ export const getNextAppPage = ({ modules, name }: Params) => {
   }
 
   ${name}.getInitialProps = async () => {
-    fetch('/api/hello').then((res) => res.json()).then((data) => console.log(data))
+    const ditto = await fetch('https://pokeapi.co/api/v2/pokemon/ditto').then((res) => res.json());
+    return {
+      props: {
+        name: '${name}',
+        ditto: ditto.name
+      }
+    }
   }
   
   export default ${name}`;

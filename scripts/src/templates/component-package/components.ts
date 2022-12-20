@@ -10,10 +10,9 @@ export const getComponent = ({ modules, name }: Params) => {
   const { components, functions } = groupByModuleType(modules);
 
   return `export const ${name} = () => {
-    ${functions.map((functionName) => `${functionName}();`).join("\n")}
+    ${functions.map((functionName) => `${functionName};`).join("\n")}
     return (
         <div>
-          ${name}
           ${components
             .map((componentName) => `<${componentName} />`)
             .join("\n")}
