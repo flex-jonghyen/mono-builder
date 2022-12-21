@@ -1,14 +1,23 @@
+import { $ } from "zx";
 import { buildFile } from "./builders/buildFile.js";
+import { APP_ROOT, COMPONENT_ROOT, FUNCTION_ROOT } from "./constants/paths.js";
 import { generateNextApp } from "./generators/generateNextApp.js";
 import { generatePackage } from "./generators/generatePackage.js";
 import { Package } from "./types/index.js";
 
 export const main = async () => {
-  const DEPTH = 10;
-  const WIDTH = 10;
-  const FILE_COUNT = 10;
-  const MODULE_COUNT = 10;
+  const DEPTH = 1;
+  const WIDTH = 100;
+  const FILE_COUNT = 30;
+  const MODULE_COUNT = 2;
   const PAGE_COUNT = 1;
+  const IMPORT_RATIO = 0.5;
+
+  console.log("Depth:", DEPTH);
+  console.log("Width:", WIDTH);
+  console.log("File Count:", FILE_COUNT);
+  console.log("Module Count:", MODULE_COUNT);
+  console.log("Page Count:", PAGE_COUNT);
 
   let functionPackages: Package[] = [];
   let functionSubPackages: Package[] = [];
@@ -24,7 +33,8 @@ export const main = async () => {
           })),
           includeModuleCount: MODULE_COUNT,
           moduleType: "function",
-          getModuleName: (type, l) => `${type.toUpperCase()}${i}${j}${k}${l}`,
+          getModuleName: (type, l) =>
+            `${type.toUpperCase()}I${i}J${j}K${k}L${l}`,
         })
       );
 
@@ -33,6 +43,7 @@ export const main = async () => {
         name: `function-${i}-${j}`,
         files: functionFiles,
         bundled: false,
+        importRatio: IMPORT_RATIO,
       };
 
       functionSubPackages.push(functionPackage);
@@ -60,7 +71,8 @@ export const main = async () => {
           })),
           includeModuleCount: MODULE_COUNT,
           moduleType: "component",
-          getModuleName: (type, l) => `${type.toUpperCase()}${i}${j}${k}${l}`,
+          getModuleName: (type, l) =>
+            `${type.toUpperCase()}I${i}J${j}K${k}L${l}`,
         })
       );
 
@@ -69,6 +81,7 @@ export const main = async () => {
         name: `component-${i}-${j}`,
         files: componentFiles,
         bundled: false,
+        importRatio: IMPORT_RATIO,
       };
 
       componentSubPackages.push(componentPackage);
@@ -87,14 +100,19 @@ export const main = async () => {
       })),
       moduleType: "page",
       includeModuleCount: PAGE_COUNT,
-      getModuleName: (type, j) => `${type.toUpperCase()}${i}${j}`,
+      getModuleName: (type, j) => `${type.toUpperCase()}I${i}J${j}`,
     });
   });
 
   await generateNextApp({
     name: "people",
     files: pages,
+    importRatio: IMPORT_RATIO,
   });
 };
 
-main();
+const packageRoots = [COMPONENT_ROOT, APP_ROOT, FUNCTION_ROOT];
+await $`yarn install`;
+await $`yarn dlx rimraf ${packageRoots}`;
+await main();
+await $`yarn install`;

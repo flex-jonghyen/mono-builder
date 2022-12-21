@@ -5,7 +5,7 @@ export type Module = {
   type: ModuleType;
 };
 
-export type Import = Package;
+export type Import = Omit<Package, "ratio">;
 
 export type Export = Module;
 
@@ -20,6 +20,7 @@ export type Package = {
   files: File[];
   type: ModuleType;
   bundled: boolean;
+  importRatio: number;
 };
 
 export type App = Omit<Package, "bundled" | "type">;

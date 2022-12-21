@@ -14,7 +14,11 @@ import { generateFile } from "./generateFile.js";
 
 type Pararms = App;
 
-export const generateNextApp = async ({ files, name }: Pararms) => {
+export const generateNextApp = async ({
+  files,
+  name,
+  importRatio,
+}: Pararms) => {
   const dependencies = getDependenciesFromFiles(files);
 
   const packageJson = getNextAppPackageJson({
@@ -49,7 +53,7 @@ export const generateNextApp = async ({ files, name }: Pararms) => {
         ...rest,
       }))
       .map((file) =>
-        generateFile({ ...file, getFileTemplate: getNextAppPage })
+        generateFile({ ...file, importRatio, getFileTemplate: getNextAppPage })
       ),
     chunk: 10,
   });

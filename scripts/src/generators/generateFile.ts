@@ -2,6 +2,7 @@ import { makeFile } from "../helper/makeFile.js";
 import type { File, Module } from "../types/index.js";
 
 type Params = File & {
+  importRatio: number;
   getFileTemplate: (params: { name: string; modules: Module[] }) => string;
 };
 
@@ -9,6 +10,7 @@ export const generateFile = ({
   exports,
   imports,
   path,
+  importRatio = 0.5,
   getFileTemplate,
 }: Params): Promise<void> => {
   const flattenImports = imports.map(({ name, files }) => {
@@ -23,7 +25,9 @@ export const generateFile = ({
     })
     .join("\n");
 
-  const importModulePool = flattenImports.flatMap(({ modules }) => modules);
+  const importModulePool = flattenImports
+    .flatMap(({ modules }) => modules)
+    .slice(0, Math.ceil(flattenImports.length * importRatio));
   const perModule = Math.ceil(importModulePool.length / exports.length);
 
   const modulesSyntax = exports

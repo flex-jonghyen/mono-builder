@@ -26,6 +26,7 @@ export const generatePackage = async ({
   files,
   name,
   type,
+  importRatio,
 }: Params) => {
   const dependencies = getDependenciesFromFiles(files);
 
@@ -77,7 +78,7 @@ export const generatePackage = async ({
         path: path.join(sourceDir, `./${_path}`),
         ...rest,
       }))
-      .map((file) => generateFile({ ...file, getFileTemplate })),
+      .map((file) => generateFile({ ...file, importRatio, getFileTemplate })),
     chunk: 10,
   });
 
