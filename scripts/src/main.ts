@@ -26,87 +26,103 @@ const env = await validateEnv({
     MODULE_COUNT: z.coerce.number(),
     PAGE_COUNT: z.coerce.number(),
     IMPORT_RATIO: z.coerce.number(),
+    MODULE_TYPE: z.string().optional().default("all"),
   }).parse,
 });
 
-const { DEPTH, FILE_COUNT, IMPORT_RATIO, MODULE_COUNT, PAGE_COUNT, WIDTH } =
-  env;
+const {
+  DEPTH,
+  FILE_COUNT,
+  IMPORT_RATIO,
+  MODULE_COUNT,
+  PAGE_COUNT,
+  WIDTH,
+  MODULE_TYPE,
+} = env;
 
 export const main = async () => {
   Object.entries(env).forEach(([key, value]) => {
     console.log(`${key}: ${value}`);
   });
 
+  const isIncludeComponent =
+    MODULE_TYPE === "all" || MODULE_TYPE === "component";
+  const isIncludeFunction = MODULE_TYPE === "all" || MODULE_TYPE === "function";
+
   let functionPackages: Package[] = [];
   let functionSubPackages: Package[] = [];
 
-  for (let i = 0; i < DEPTH; i++) {
-    for (let j = 0; j < WIDTH; j++) {
-      const functionFiles = Array.from({ length: FILE_COUNT }).map((_, k) =>
-        buildFile({
-          path: `function-${k}.ts`,
-          imports: functionPackages.map(({ name, ...rest }) => ({
-            name: `@flexteam/${name}`,
-            ...rest,
-          })),
-          includeModuleCount: MODULE_COUNT,
-          moduleType: "function",
-          getModuleName: (type, l) =>
-            `${type.toUpperCase()}I${i}J${j}K${k}L${l}`,
-        })
-      );
+  if (isIncludeFunction) {
+    for (let i = 0; i < DEPTH; i++) {
+      for (let j = 0; j < WIDTH; j++) {
+        const functionFiles = Array.from({ length: FILE_COUNT }).map((_, k) =>
+          buildFile({
+            path: `function-${k}.ts`,
+            imports: functionPackages.map(({ name, ...rest }) => ({
+              name: `@flexteam/${name}`,
+              ...rest,
+            })),
+            includeModuleCount: MODULE_COUNT,
+            moduleType: "function",
+            getModuleName: (type, l) =>
+              `${type.toUpperCase()}I${i}J${j}K${k}L${l}`,
+          })
+        );
 
-      const functionPackage: Package = {
-        type: "function",
-        name: `function-${i}-${j}`,
-        files: functionFiles,
-        bundled: false,
-        importRatio: IMPORT_RATIO,
-      };
+        const functionPackage: Package = {
+          type: "function",
+          name: `function-${i}-${j}`,
+          files: functionFiles,
+          bundled: false,
+          importRatio: IMPORT_RATIO,
+        };
 
-      functionSubPackages.push(functionPackage);
-      await generatePackage(functionPackage);
+        functionSubPackages.push(functionPackage);
+        await generatePackage(functionPackage);
+      }
+      functionPackages = functionSubPackages;
+      functionSubPackages = [];
     }
-    functionPackages = functionSubPackages;
-    functionSubPackages = [];
   }
 
   let componentPackages: Package[] = functionPackages;
   let componentSubPackages: Package[] = [];
 
-  for (let i = 0; i < DEPTH; i++) {
-    for (let j = 0; j < WIDTH; j++) {
-      const componentFiles = Array.from({ length: FILE_COUNT }).map((_, k) =>
-        buildFile({
-          path: `component-${k}.tsx`,
-          imports: componentPackages.map(({ name, type, ...rest }) => ({
-            name:
-              type === "component"
-                ? `@flex-components/${name}`
-                : `@flexteam/${name}`,
-            type,
-            ...rest,
-          })),
-          includeModuleCount: MODULE_COUNT,
-          moduleType: "component",
-          getModuleName: (type, l) =>
-            `${type.toUpperCase()}I${i}J${j}K${k}L${l}`,
-        })
-      );
+  if (isIncludeComponent) {
+    for (let i = 0; i < DEPTH; i++) {
+      for (let j = 0; j < WIDTH; j++) {
+        const componentFiles = Array.from({ length: FILE_COUNT }).map((_, k) =>
+          buildFile({
+            path: `component-${k}.tsx`,
+            imports: componentPackages.map(({ name, type, ...rest }) => ({
+              name:
+                type === "component"
+                  ? `@flex-components/${name}`
+                  : `@flexteam/${name}`,
+              type,
+              ...rest,
+            })),
+            includeModuleCount: MODULE_COUNT,
+            moduleType: "component",
+            getModuleName: (type, l) =>
+              `${type.toUpperCase()}I${i}J${j}K${k}L${l}`,
+          })
+        );
 
-      const componentPackage: Package = {
-        type: "component",
-        name: `component-${i}-${j}`,
-        files: componentFiles,
-        bundled: false,
-        importRatio: IMPORT_RATIO,
-      };
+        const componentPackage: Package = {
+          type: "component",
+          name: `component-${i}-${j}`,
+          files: componentFiles,
+          bundled: false,
+          importRatio: IMPORT_RATIO,
+        };
 
-      componentSubPackages.push(componentPackage);
-      await generatePackage(componentPackage);
+        componentSubPackages.push(componentPackage);
+        await generatePackage(componentPackage);
+      }
+      componentPackages = componentSubPackages;
+      componentSubPackages = [];
     }
-    componentPackages = componentSubPackages;
-    componentSubPackages = [];
   }
 
   const pages = Array.from({ length: 1 }).map((_, i) => {
