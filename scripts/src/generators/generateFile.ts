@@ -27,7 +27,8 @@ export const generateFile = ({
 
   const importModulePool = flattenImports
     .flatMap(({ modules }) => modules)
-    .slice(0, Math.ceil(flattenImports.length * importRatio));
+    .filter((_, index) => index % (1 / importRatio) === 0);
+
   const perModule = Math.ceil(importModulePool.length / exports.length);
 
   const modulesSyntax = exports
