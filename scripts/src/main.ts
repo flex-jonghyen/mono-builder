@@ -1,23 +1,41 @@
-import { $ } from "zx";
+import { config } from "dotenv";
+import { z } from "zod";
+import { $, path } from "zx";
 import { buildFile } from "./builders/buildFile.js";
-import { APP_ROOT, COMPONENT_ROOT, FUNCTION_ROOT } from "./constants/paths.js";
+import {
+  APP_ROOT,
+  COMPONENT_ROOT,
+  FUNCTION_ROOT,
+  WORKSPACE_ROOT,
+} from "./constants/paths.js";
 import { generateNextApp } from "./generators/generateNextApp.js";
 import { generatePackage } from "./generators/generatePackage.js";
+import { validateEnv } from "./helper/validateEnv.js";
 import { Package } from "./types/index.js";
 
-export const main = async () => {
-  const DEPTH = 1;
-  const WIDTH = 100;
-  const FILE_COUNT = 30;
-  const MODULE_COUNT = 2;
-  const PAGE_COUNT = 1;
-  const IMPORT_RATIO = 0.5;
+const envPath = path.join(WORKSPACE_ROOT, ".env");
+const { parsed: value } = config({ path: envPath });
 
-  console.log("Depth:", DEPTH);
-  console.log("Width:", WIDTH);
-  console.log("File Count:", FILE_COUNT);
-  console.log("Module Count:", MODULE_COUNT);
-  console.log("Page Count:", PAGE_COUNT);
+const env = await validateEnv({
+  exampleFile: path.join(WORKSPACE_ROOT, ".env.example"),
+  values: value ?? {},
+  validateValue: z.object({
+    DEPTH: z.coerce.number(),
+    WIDTH: z.coerce.number(),
+    FILE_COUNT: z.coerce.number(),
+    MODULE_COUNT: z.coerce.number(),
+    PAGE_COUNT: z.coerce.number(),
+    IMPORT_RATIO: z.coerce.number(),
+  }).parse,
+});
+
+const { DEPTH, FILE_COUNT, IMPORT_RATIO, MODULE_COUNT, PAGE_COUNT, WIDTH } =
+  env;
+
+export const main = async () => {
+  Object.entries(env).forEach(([key, value]) => {
+    console.log(`${key}: ${value}`);
+  });
 
   let functionPackages: Package[] = [];
   let functionSubPackages: Package[] = [];

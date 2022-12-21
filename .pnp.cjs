@@ -25170,7 +25170,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hygen", "npm:6.2.11"],\
             ["tiny-dedent", "npm:1.0.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
-            ["zod", "npm:3.19.1"],\
+            ["zod", "npm:3.20.2"],\
             ["zx", "npm:7.1.1"]\
           ],\
           "linkType": "SOFT"\
@@ -27058,10 +27058,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["zod", [\
-        ["npm:3.19.1", {\
-          "packageLocation": "./.yarn/cache/zod-npm-3.19.1-5084a5dfc9-56e420ea58.zip/node_modules/zod/",\
+        ["npm:3.20.2", {\
+          "packageLocation": "./.yarn/cache/zod-npm-3.20.2-faa0b46f24-04172f7e93.zip/node_modules/zod/",\
           "packageDependencies": [\
-            ["zod", "npm:3.19.1"]\
+            ["zod", "npm:3.20.2"]\
           ],\
           "linkType": "HARD"\
         }]\
