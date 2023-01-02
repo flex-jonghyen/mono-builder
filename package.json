@@ -1,6 +1,6 @@
 {
   "name": "esm-test",
-  "packageManager": "yarn@3.3.0",
+  "packageManager": "yarn@3.3.1",
   "private": true,
   "workspaces": [
     "scripts",
@@ -9,14 +9,11 @@
     "functions/*",
     "bundler"
   ],
-  "resolutions": {
-    "typescript": "4.9.3"
-  },
   "scripts": {
     "postinstall": "yarn dlx @yarnpkg/sdks vscode"
   },
   "devDependencies": {
     "@flexteam/mono-builder": "workspace:^",
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.4"
   }
 }

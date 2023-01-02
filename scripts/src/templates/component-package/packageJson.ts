@@ -50,7 +50,9 @@ export const getBundledComponentPackageJson = ({
     "devDependencies": {
         "typescript": "4.9.4",
         "@types/react": "18.0.26",
-        "@types/react-dom": "18.0.9"
+        "@types/react-dom": "18.0.9",
+        "@flexteam/bundler": "workspace:^",
+        "esbuild": "0.16.12"
     },
     "peerDependencies": {
         "react": "*",

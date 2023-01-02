@@ -1,4 +1,4 @@
 {
-  "compilerOptions": {},
-  "include": ["configs"]
+  "extends": "../tsconfig.json",
+  "include": ["src"]
 }

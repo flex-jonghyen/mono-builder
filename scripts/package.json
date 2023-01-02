@@ -8,11 +8,10 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.4"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "hygen": "^6.2.11",
     "tiny-dedent": "^1.0.2",
     "zod": "^3.20.2",
     "zx": "^7.1.1"
