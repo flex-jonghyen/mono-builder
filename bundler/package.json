@@ -1,0 +1,7 @@
+{
+  "name": "@flexteam/bundler",
+  "type": "module",
+  "peerDependencies": {
+    "rollup": "*"
+  }
+}

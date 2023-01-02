@@ -6,7 +6,8 @@
     "scripts",
     "apps/*",
     "components/*",
-    "functions/*"
+    "functions/*",
+    "bundler"
   ],
   "resolutions": {
     "typescript": "4.9.3"
