@@ -4,17 +4,16 @@ import { chunkPromiseAll } from "../helper/chunkPromiseAll.js";
 import { getDependenciesFromFiles } from "../helper/getDependenciesFromFile.js";
 import { makeFile } from "../helper/makeFile.js";
 import { getComponent } from "../templates/component-package/components.js";
-import {
-  getBundledComponentPackageJson,
-  getNonBundledComponentPackageJson,
-} from "../templates/component-package/packageJson.js";
+import { getBundledComponentPackageJson } from "../templates/component-package/packageJson.js";
 import { getComponentTsConfig } from "../templates/component-package/tsconfig.js";
 import { getFunction } from "../templates/function-package/functions.js";
 import {
   getBundledFunctionPackageJson,
   getNonBundledFunctionPackageJson,
 } from "../templates/function-package/packageJson.js";
+
 import { getFunctionTsConfig } from "../templates/function-package/tsconfig.js";
+import { getRollupConfig } from "../templates/rollupConfig.js";
 
 import type { Package } from "../types/index.js";
 import { generateFile } from "./generateFile.js";
@@ -30,6 +29,8 @@ export const generatePackage = async ({
 }: Params) => {
   const dependencies = getDependenciesFromFiles(files);
 
+  const rollupConfig = bundled ? getRollupConfig({}) : "";
+
   let packageJson = "";
   let tsconfig = "";
 
@@ -41,7 +42,7 @@ export const generatePackage = async ({
 
     packageJson = bundled
       ? getBundledComponentPackageJson(packageJsonParams)
-      : getNonBundledComponentPackageJson(packageJsonParams);
+      : getNonBundledFunctionPackageJson(packageJsonParams);
 
     tsconfig = getComponentTsConfig();
   } else {
@@ -63,6 +64,10 @@ export const generatePackage = async ({
   );
 
   await fs.ensureDir(packageDir);
+  if (!!rollupConfig) {
+    await makeFile(path.join(packageDir, "./rollup.config.mjs"), rollupConfig);
+  }
+
   await Promise.all([
     makeFile(path.join(packageDir, "./package.json"), packageJson),
     makeFile(path.join(packageDir, "./tsconfig.json"), tsconfig),

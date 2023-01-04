@@ -27,6 +27,7 @@ const env = await validateEnv({
     PAGE_COUNT: z.coerce.number(),
     IMPORT_RATIO: z.coerce.number(),
     MODULE_TYPE: z.string().optional().default("all"),
+    BUNDLED: z.coerce.boolean().default(false),
   }).parse,
 });
 
@@ -38,6 +39,7 @@ const {
   PAGE_COUNT,
   WIDTH,
   MODULE_TYPE,
+  BUNDLED,
 } = env;
 
 export const main = async () => {
@@ -73,7 +75,7 @@ export const main = async () => {
           type: "function",
           name: `function-${i}-${j}`,
           files: functionFiles,
-          bundled: false,
+          bundled: BUNDLED,
           importRatio: IMPORT_RATIO,
         };
 
@@ -113,7 +115,7 @@ export const main = async () => {
           type: "component",
           name: `component-${i}-${j}`,
           files: componentFiles,
-          bundled: false,
+          bundled: BUNDLED,
           importRatio: IMPORT_RATIO,
         };
 

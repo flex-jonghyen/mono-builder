@@ -42,7 +42,9 @@ export const getBundledFunctionPackageJson = ({
           .join(",\n")}
     },
     "devDependencies": {
-        "typescript": "4.9.4"
+        "typescript": "4.9.4",
+        "@flexteam/bundler": "workspace:^",
+        "esbuild": "0.16.12"
     }
 }`;
 };

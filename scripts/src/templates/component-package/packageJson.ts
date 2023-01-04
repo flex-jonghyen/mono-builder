@@ -39,9 +39,12 @@ export const getBundledComponentPackageJson = ({
     "name": "${packageName}",
     "version": "1.0.0",
     "description": "",
-    "main": "dist/index.js",
-    "module": "dist/es/index.mjs",
+    "type": "module",
+    "module": "dist/index.js",
     "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "rollup --config rollup.config.mjs"
+    },
     "dependencies": {
         ${dependencies
           .map(({ name, version }) => `"${name}": "${version}"`)
@@ -52,7 +55,8 @@ export const getBundledComponentPackageJson = ({
         "@types/react": "18.0.26",
         "@types/react-dom": "18.0.9",
         "@flexteam/bundler": "workspace:^",
-        "esbuild": "0.16.12"
+        "esbuild": "0.16.12",
+        "rollup": "^3.9.1"
     },
     "peerDependencies": {
         "react": "*",
