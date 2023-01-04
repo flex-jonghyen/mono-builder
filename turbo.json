@@ -1,0 +1,15 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "type": {
+      "dependsOn": ["^type"],
+      "inputs": ["src/**", "tsconfig.json"],
+      "outputs": ["dist/**"]
+    },
+    "build": {
+      "dependsOn": ["^build", "type"],
+      "inputs": ["src/**", "rollup.config.mjs", "tsconfig.json"],
+      "outputs": ["dist/**"]
+    }
+  }
+}

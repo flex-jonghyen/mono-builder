@@ -1,22 +1,21 @@
 export const getComponentTsConfig = () => {
   return `{
-  "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true
-  },
-  "include": ["src"],
-  "exclude": ["node_modules"]
-}`;
+    "compilerOptions": {
+      "target": "esnext",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "isolatedModules": true,
+      "incremental": true,
+      "declaration": true,
+      "declarationDir": "dist",
+      "jsx": "react-jsx",
+      "emitDeclarationOnly": true,
+    },
+    "include": ["src"]
+  }`;
 };

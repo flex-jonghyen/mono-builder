@@ -33,9 +33,13 @@ export const getBundledFunctionPackageJson = ({
     "name": "${packageName}",
     "version": "1.0.0",
     "description": "",
-    "main": "dist/index.js",
-    "module": "dist/es/index.mjs",
+    "type": "module",
+    "module": "dist/index.js",
     "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "rollup --config rollup.config.mjs",
+      "type": "tsc -p tsconfig.json"
+    },
     "dependencies": {
         ${dependencies
           .map(({ name, version }) => `"${name}": "${version}"`)

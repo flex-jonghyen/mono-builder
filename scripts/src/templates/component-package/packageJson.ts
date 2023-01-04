@@ -43,7 +43,8 @@ export const getBundledComponentPackageJson = ({
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-      "build": "rollup --config rollup.config.mjs"
+      "build": "rollup --config rollup.config.mjs",
+      "type": "tsc -p tsconfig.json"
     },
     "dependencies": {
         ${dependencies

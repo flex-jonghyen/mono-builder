@@ -10,10 +10,12 @@
     "bundler"
   ],
   "scripts": {
-    "postinstall": "yarn dlx @yarnpkg/sdks vscode"
+    "postinstall": "yarn dlx @yarnpkg/sdks vscode",
+    "build": "yarn turbo build --filter=@flex-apps/people... --no-cache"
   },
   "devDependencies": {
     "@flexteam/mono-builder": "workspace:^",
+    "turbo": "^1.6.3",
     "typescript": "^4.9.4"
   }
 }
