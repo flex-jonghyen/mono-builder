@@ -28,8 +28,80 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:components/component-0-0"\
       },\
       {\
+        "name": "@flex-components/component-0-1",\
+        "reference": "workspace:components/component-0-1"\
+      },\
+      {\
         "name": "@flex-components/component-1-0",\
         "reference": "workspace:components/component-1-0"\
+      },\
+      {\
+        "name": "@flex-components/component-1-1",\
+        "reference": "workspace:components/component-1-1"\
+      },\
+      {\
+        "name": "@flex-components/component-2-0",\
+        "reference": "workspace:components/component-2-0"\
+      },\
+      {\
+        "name": "@flex-components/component-2-1",\
+        "reference": "workspace:components/component-2-1"\
+      },\
+      {\
+        "name": "@flex-components/component-3-0",\
+        "reference": "workspace:components/component-3-0"\
+      },\
+      {\
+        "name": "@flex-components/component-3-1",\
+        "reference": "workspace:components/component-3-1"\
+      },\
+      {\
+        "name": "@flex-components/component-4-0",\
+        "reference": "workspace:components/component-4-0"\
+      },\
+      {\
+        "name": "@flex-components/component-4-1",\
+        "reference": "workspace:components/component-4-1"\
+      },\
+      {\
+        "name": "@flex-components/component-5-0",\
+        "reference": "workspace:components/component-5-0"\
+      },\
+      {\
+        "name": "@flex-components/component-5-1",\
+        "reference": "workspace:components/component-5-1"\
+      },\
+      {\
+        "name": "@flex-components/component-6-0",\
+        "reference": "workspace:components/component-6-0"\
+      },\
+      {\
+        "name": "@flex-components/component-6-1",\
+        "reference": "workspace:components/component-6-1"\
+      },\
+      {\
+        "name": "@flex-components/component-7-0",\
+        "reference": "workspace:components/component-7-0"\
+      },\
+      {\
+        "name": "@flex-components/component-7-1",\
+        "reference": "workspace:components/component-7-1"\
+      },\
+      {\
+        "name": "@flex-components/component-8-0",\
+        "reference": "workspace:components/component-8-0"\
+      },\
+      {\
+        "name": "@flex-components/component-8-1",\
+        "reference": "workspace:components/component-8-1"\
+      },\
+      {\
+        "name": "@flex-components/component-9-0",\
+        "reference": "workspace:components/component-9-0"\
+      },\
+      {\
+        "name": "@flex-components/component-9-1",\
+        "reference": "workspace:components/component-9-1"\
       },\
       {\
         "name": "@flexteam/mono-builder",\
@@ -40,9 +112,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
       ["@flex-apps/people", ["workspace:apps/people"]],\
-      ["@flex-components/component-0-0", ["virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:components/component-0-0", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-0", "workspace:components/component-0-0"]],\
-      ["@flex-components/component-1-0", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-1-0", "workspace:components/component-1-0"]],\
-      ["@flexteam/bundler", ["virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:bundler", "workspace:bundler"]],\
+      ["@flex-components/component-0-0", ["virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-0", "virtual:f3f070fcda96a2778264719980bbff347553dd73d684a7dec45be4fc2e4509a1ed48754f6b55df562d6338390b39fd306c52eebda629c7360c8f494b201dae8b#workspace:components/component-0-0", "workspace:components/component-0-0"]],\
+      ["@flex-components/component-0-1", ["virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-1", "virtual:f3f070fcda96a2778264719980bbff347553dd73d684a7dec45be4fc2e4509a1ed48754f6b55df562d6338390b39fd306c52eebda629c7360c8f494b201dae8b#workspace:components/component-0-1", "workspace:components/component-0-1"]],\
+      ["@flex-components/component-1-0", ["virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-0", "virtual:762cfd7437ca1c3554d4662b3a847a8a5d9968ea12541f9cb412ba5de198f1ba3737bc2f4ac9ebe4c078a769e0ab60590762873350f80fde0b1c0e8aef35e314#workspace:components/component-1-0", "workspace:components/component-1-0"]],\
+      ["@flex-components/component-1-1", ["virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-1", "virtual:762cfd7437ca1c3554d4662b3a847a8a5d9968ea12541f9cb412ba5de198f1ba3737bc2f4ac9ebe4c078a769e0ab60590762873350f80fde0b1c0e8aef35e314#workspace:components/component-1-1", "workspace:components/component-1-1"]],\
+      ["@flex-components/component-2-0", ["virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-0", "virtual:da5b461702c5bea05ec12d44ad9c568b4d2f2dc396d6d183d56e2c1907b6e4a7c9655e7a993da16bee3f8b9b27fa92f288f95f410c52b42b5820d7ed4d5f383c#workspace:components/component-2-0", "workspace:components/component-2-0"]],\
+      ["@flex-components/component-2-1", ["virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-1", "virtual:da5b461702c5bea05ec12d44ad9c568b4d2f2dc396d6d183d56e2c1907b6e4a7c9655e7a993da16bee3f8b9b27fa92f288f95f410c52b42b5820d7ed4d5f383c#workspace:components/component-2-1", "workspace:components/component-2-1"]],\
+      ["@flex-components/component-3-0", ["virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-0", "virtual:4c89106725c2d3832e805999ec7ad02e2395e6d144582b6ec8e86df452e6dfb9e754f686a0bd158628ab35d54959cb0e25e5e004a7373d89d129ee2c3963746f#workspace:components/component-3-0", "workspace:components/component-3-0"]],\
+      ["@flex-components/component-3-1", ["virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-1", "virtual:4c89106725c2d3832e805999ec7ad02e2395e6d144582b6ec8e86df452e6dfb9e754f686a0bd158628ab35d54959cb0e25e5e004a7373d89d129ee2c3963746f#workspace:components/component-3-1", "workspace:components/component-3-1"]],\
+      ["@flex-components/component-4-0", ["virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-0", "virtual:98179380662cca32aa77718047ec9cd2fe6e71376df0681ef81c6eb8d2e7fe35f1f5f127759c1ad9b2224c2240b5ef89544a6d31864db2bc424f188245be139f#workspace:components/component-4-0", "workspace:components/component-4-0"]],\
+      ["@flex-components/component-4-1", ["virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-1", "virtual:98179380662cca32aa77718047ec9cd2fe6e71376df0681ef81c6eb8d2e7fe35f1f5f127759c1ad9b2224c2240b5ef89544a6d31864db2bc424f188245be139f#workspace:components/component-4-1", "workspace:components/component-4-1"]],\
+      ["@flex-components/component-5-0", ["virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-0", "virtual:56a44ee1950f1dd0c1b23a0324d574d11b6323a31912aa7db22ced13a6619bd03de4e0ec3715d51b8a0674334c8d3185763b2e7e3b54cccd3a646b6c10501ae9#workspace:components/component-5-0", "workspace:components/component-5-0"]],\
+      ["@flex-components/component-5-1", ["virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-1", "virtual:56a44ee1950f1dd0c1b23a0324d574d11b6323a31912aa7db22ced13a6619bd03de4e0ec3715d51b8a0674334c8d3185763b2e7e3b54cccd3a646b6c10501ae9#workspace:components/component-5-1", "workspace:components/component-5-1"]],\
+      ["@flex-components/component-6-0", ["virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-0", "virtual:4b9a5278de1663f91a43487fd53819f01c3f3b26d157ad0ad43887cbe1eab372e3d4f4c96c854204349bbcb88e44762faf65101b715a73957a4b02304148c529#workspace:components/component-6-0", "workspace:components/component-6-0"]],\
+      ["@flex-components/component-6-1", ["virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-1", "virtual:4b9a5278de1663f91a43487fd53819f01c3f3b26d157ad0ad43887cbe1eab372e3d4f4c96c854204349bbcb88e44762faf65101b715a73957a4b02304148c529#workspace:components/component-6-1", "workspace:components/component-6-1"]],\
+      ["@flex-components/component-7-0", ["virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-0", "virtual:351fa270ccf10dd06110244298707b43484b77925f24aac8cc33a443870473783de04575df8d79d5946c76c3c00d52d00704c1caa913d5e400a5c9f0637a03c9#workspace:components/component-7-0", "workspace:components/component-7-0"]],\
+      ["@flex-components/component-7-1", ["virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-1", "virtual:351fa270ccf10dd06110244298707b43484b77925f24aac8cc33a443870473783de04575df8d79d5946c76c3c00d52d00704c1caa913d5e400a5c9f0637a03c9#workspace:components/component-7-1", "workspace:components/component-7-1"]],\
+      ["@flex-components/component-8-0", ["virtual:84d4136ac7403463c80335360d4c95bad45f256c9c36a77d25d277c9c6b8bf50801ba58d3e81e9593236b81b9c97b8c53bdd5055d4494bcf0ade4d5e459d952d#workspace:components/component-8-0", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:components/component-8-0", "workspace:components/component-8-0"]],\
+      ["@flex-components/component-8-1", ["virtual:84d4136ac7403463c80335360d4c95bad45f256c9c36a77d25d277c9c6b8bf50801ba58d3e81e9593236b81b9c97b8c53bdd5055d4494bcf0ade4d5e459d952d#workspace:components/component-8-1", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:components/component-8-1", "workspace:components/component-8-1"]],\
+      ["@flex-components/component-9-0", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9-0", "workspace:components/component-9-0"]],\
+      ["@flex-components/component-9-1", ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9-1", "workspace:components/component-9-1"]],\
+      ["@flexteam/bundler", ["virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler", "workspace:bundler"]],\
       ["@flexteam/mono-builder", ["workspace:scripts"]],\
       ["esm-test", ["workspace:."]]\
     ],\
@@ -263,7 +353,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./apps/people/",\
           "packageDependencies": [\
             ["@flex-apps/people", "workspace:apps/people"],\
-            ["@flex-components/component-1-0", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-1-0"],\
+            ["@flex-components/component-9-0", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9-0"],\
+            ["@flex-components/component-9-1", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9-1"],\
             ["@types/node", "npm:18.11.12"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
@@ -276,32 +367,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@flex-components/component-0-0", [\
-        ["virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:components/component-0-0", {\
-          "packageLocation": "./.yarn/__virtual__/@flex-components-component-0-0-virtual-9f08dcf1d5/1/components/component-0-0/",\
-          "packageDependencies": [\
-            ["@flex-components/component-0-0", "virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:components/component-0-0"],\
-            ["@flexteam/bundler", "virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:bundler"],\
-            ["@types/react", "npm:18.0.26"],\
-            ["@types/react-dom", "npm:18.0.9"],\
-            ["esbuild", "npm:0.16.12"],\
-            ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
-            ["rollup", "npm:3.9.1"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
-          ],\
-          "packagePeers": [\
-            "@types/react-dom",\
-            "@types/react",\
-            "react-dom",\
-            "react"\
-          ],\
-          "linkType": "SOFT"\
-        }],\
         ["virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-0", {\
           "packageLocation": "./.yarn/__virtual__/@flex-components-component-0-0-virtual-62b90a86bf/1/components/component-0-0/",\
           "packageDependencies": [\
             ["@flex-components/component-0-0", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-0"],\
-            ["@flexteam/bundler", "virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:bundler"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["esbuild", "npm:0.16.12"],\
@@ -318,11 +388,89 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["virtual:f3f070fcda96a2778264719980bbff347553dd73d684a7dec45be4fc2e4509a1ed48754f6b55df562d6338390b39fd306c52eebda629c7360c8f494b201dae8b#workspace:components/component-0-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-0-0-virtual-b1bbf57a57/1/components/component-0-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-0-0", "virtual:f3f070fcda96a2778264719980bbff347553dd73d684a7dec45be4fc2e4509a1ed48754f6b55df562d6338390b39fd306c52eebda629c7360c8f494b201dae8b#workspace:components/component-0-0"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["workspace:components/component-0-0", {\
           "packageLocation": "./components/component-0-0/",\
           "packageDependencies": [\
             ["@flex-components/component-0-0", "workspace:components/component-0-0"],\
-            ["@flexteam/bundler", "virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:bundler"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-0-1", [\
+        ["virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-0-1-virtual-f2b03cb8fe/1/components/component-0-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-0-1", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:f3f070fcda96a2778264719980bbff347553dd73d684a7dec45be4fc2e4509a1ed48754f6b55df562d6338390b39fd306c52eebda629c7360c8f494b201dae8b#workspace:components/component-0-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-0-1-virtual-177a7a3f07/1/components/component-0-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-0-1", "virtual:f3f070fcda96a2778264719980bbff347553dd73d684a7dec45be4fc2e4509a1ed48754f6b55df562d6338390b39fd306c52eebda629c7360c8f494b201dae8b#workspace:components/component-0-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-0-1", {\
+          "packageLocation": "./components/component-0-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-0-1", "workspace:components/component-0-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["esbuild", "npm:0.16.12"],\
@@ -333,12 +481,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@flex-components/component-1-0", [\
-        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-1-0", {\
-          "packageLocation": "./.yarn/__virtual__/@flex-components-component-1-0-virtual-c72145269d/1/components/component-1-0/",\
+        ["virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-1-0-virtual-db9615ce33/1/components/component-1-0/",\
           "packageDependencies": [\
-            ["@flex-components/component-1-0", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-1-0"],\
-            ["@flex-components/component-0-0", "virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:components/component-0-0"],\
-            ["@flexteam/bundler", "virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:bundler"],\
+            ["@flex-components/component-1-0", "virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-0"],\
+            ["@flex-components/component-0-0", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-0"],\
+            ["@flex-components/component-0-1", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:762cfd7437ca1c3554d4662b3a847a8a5d9968ea12541f9cb412ba5de198f1ba3737bc2f4ac9ebe4c078a769e0ab60590762873350f80fde0b1c0e8aef35e314#workspace:components/component-1-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-1-0-virtual-f3f070fcda/1/components/component-1-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-1-0", "virtual:762cfd7437ca1c3554d4662b3a847a8a5d9968ea12541f9cb412ba5de198f1ba3737bc2f4ac9ebe4c078a769e0ab60590762873350f80fde0b1c0e8aef35e314#workspace:components/component-1-0"],\
+            ["@flex-components/component-0-0", "virtual:f3f070fcda96a2778264719980bbff347553dd73d684a7dec45be4fc2e4509a1ed48754f6b55df562d6338390b39fd306c52eebda629c7360c8f494b201dae8b#workspace:components/component-0-0"],\
+            ["@flex-components/component-0-1", "virtual:f3f070fcda96a2778264719980bbff347553dd73d684a7dec45be4fc2e4509a1ed48754f6b55df562d6338390b39fd306c52eebda629c7360c8f494b201dae8b#workspace:components/component-0-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["esbuild", "npm:0.16.12"],\
@@ -360,7 +532,1033 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@flex-components/component-1-0", "workspace:components/component-1-0"],\
             ["@flex-components/component-0-0", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-0"],\
-            ["@flexteam/bundler", "virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:bundler"],\
+            ["@flex-components/component-0-1", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-1-1", [\
+        ["virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-1-1-virtual-22263cf1f4/1/components/component-1-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-1-1", "virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-1"],\
+            ["@flex-components/component-0-0", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-0"],\
+            ["@flex-components/component-0-1", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:762cfd7437ca1c3554d4662b3a847a8a5d9968ea12541f9cb412ba5de198f1ba3737bc2f4ac9ebe4c078a769e0ab60590762873350f80fde0b1c0e8aef35e314#workspace:components/component-1-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-1-1-virtual-f557a896df/1/components/component-1-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-1-1", "virtual:762cfd7437ca1c3554d4662b3a847a8a5d9968ea12541f9cb412ba5de198f1ba3737bc2f4ac9ebe4c078a769e0ab60590762873350f80fde0b1c0e8aef35e314#workspace:components/component-1-1"],\
+            ["@flex-components/component-0-0", "virtual:f3f070fcda96a2778264719980bbff347553dd73d684a7dec45be4fc2e4509a1ed48754f6b55df562d6338390b39fd306c52eebda629c7360c8f494b201dae8b#workspace:components/component-0-0"],\
+            ["@flex-components/component-0-1", "virtual:f3f070fcda96a2778264719980bbff347553dd73d684a7dec45be4fc2e4509a1ed48754f6b55df562d6338390b39fd306c52eebda629c7360c8f494b201dae8b#workspace:components/component-0-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-1-1", {\
+          "packageLocation": "./components/component-1-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-1-1", "workspace:components/component-1-1"],\
+            ["@flex-components/component-0-0", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-0"],\
+            ["@flex-components/component-0-1", "virtual:ec18c0988344979af019277b1d21e2ae3f5b4c10308e85ac235c7e353eb6c5b3130f19f3a627b769081ba53aabb0847e8bc9aeacb66457386c600365f53f6c34#workspace:components/component-0-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-2-0", [\
+        ["virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-2-0-virtual-4e06c96c06/1/components/component-2-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-2-0", "virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-0"],\
+            ["@flex-components/component-1-0", "virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-0"],\
+            ["@flex-components/component-1-1", "virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:da5b461702c5bea05ec12d44ad9c568b4d2f2dc396d6d183d56e2c1907b6e4a7c9655e7a993da16bee3f8b9b27fa92f288f95f410c52b42b5820d7ed4d5f383c#workspace:components/component-2-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-2-0-virtual-762cfd7437/1/components/component-2-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-2-0", "virtual:da5b461702c5bea05ec12d44ad9c568b4d2f2dc396d6d183d56e2c1907b6e4a7c9655e7a993da16bee3f8b9b27fa92f288f95f410c52b42b5820d7ed4d5f383c#workspace:components/component-2-0"],\
+            ["@flex-components/component-1-0", "virtual:762cfd7437ca1c3554d4662b3a847a8a5d9968ea12541f9cb412ba5de198f1ba3737bc2f4ac9ebe4c078a769e0ab60590762873350f80fde0b1c0e8aef35e314#workspace:components/component-1-0"],\
+            ["@flex-components/component-1-1", "virtual:762cfd7437ca1c3554d4662b3a847a8a5d9968ea12541f9cb412ba5de198f1ba3737bc2f4ac9ebe4c078a769e0ab60590762873350f80fde0b1c0e8aef35e314#workspace:components/component-1-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-2-0", {\
+          "packageLocation": "./components/component-2-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-2-0", "workspace:components/component-2-0"],\
+            ["@flex-components/component-1-0", "virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-0"],\
+            ["@flex-components/component-1-1", "virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-2-1", [\
+        ["virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-2-1-virtual-3432da694b/1/components/component-2-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-2-1", "virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-1"],\
+            ["@flex-components/component-1-0", "virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-0"],\
+            ["@flex-components/component-1-1", "virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:da5b461702c5bea05ec12d44ad9c568b4d2f2dc396d6d183d56e2c1907b6e4a7c9655e7a993da16bee3f8b9b27fa92f288f95f410c52b42b5820d7ed4d5f383c#workspace:components/component-2-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-2-1-virtual-fc0feef6a4/1/components/component-2-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-2-1", "virtual:da5b461702c5bea05ec12d44ad9c568b4d2f2dc396d6d183d56e2c1907b6e4a7c9655e7a993da16bee3f8b9b27fa92f288f95f410c52b42b5820d7ed4d5f383c#workspace:components/component-2-1"],\
+            ["@flex-components/component-1-0", "virtual:762cfd7437ca1c3554d4662b3a847a8a5d9968ea12541f9cb412ba5de198f1ba3737bc2f4ac9ebe4c078a769e0ab60590762873350f80fde0b1c0e8aef35e314#workspace:components/component-1-0"],\
+            ["@flex-components/component-1-1", "virtual:762cfd7437ca1c3554d4662b3a847a8a5d9968ea12541f9cb412ba5de198f1ba3737bc2f4ac9ebe4c078a769e0ab60590762873350f80fde0b1c0e8aef35e314#workspace:components/component-1-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-2-1", {\
+          "packageLocation": "./components/component-2-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-2-1", "workspace:components/component-2-1"],\
+            ["@flex-components/component-1-0", "virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-0"],\
+            ["@flex-components/component-1-1", "virtual:56a950e84e7816b200b15b08bc72f7c653bbec938f58cc1a28a3c4b42f6e538c49ae249999949ee365058622ca3cb7a0b9ed481ecc53a69db9efe81be81605bc#workspace:components/component-1-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-3-0", [\
+        ["virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-3-0-virtual-dce2a2251a/1/components/component-3-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-3-0", "virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-0"],\
+            ["@flex-components/component-2-0", "virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-0"],\
+            ["@flex-components/component-2-1", "virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:4c89106725c2d3832e805999ec7ad02e2395e6d144582b6ec8e86df452e6dfb9e754f686a0bd158628ab35d54959cb0e25e5e004a7373d89d129ee2c3963746f#workspace:components/component-3-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-3-0-virtual-da5b461702/1/components/component-3-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-3-0", "virtual:4c89106725c2d3832e805999ec7ad02e2395e6d144582b6ec8e86df452e6dfb9e754f686a0bd158628ab35d54959cb0e25e5e004a7373d89d129ee2c3963746f#workspace:components/component-3-0"],\
+            ["@flex-components/component-2-0", "virtual:da5b461702c5bea05ec12d44ad9c568b4d2f2dc396d6d183d56e2c1907b6e4a7c9655e7a993da16bee3f8b9b27fa92f288f95f410c52b42b5820d7ed4d5f383c#workspace:components/component-2-0"],\
+            ["@flex-components/component-2-1", "virtual:da5b461702c5bea05ec12d44ad9c568b4d2f2dc396d6d183d56e2c1907b6e4a7c9655e7a993da16bee3f8b9b27fa92f288f95f410c52b42b5820d7ed4d5f383c#workspace:components/component-2-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-3-0", {\
+          "packageLocation": "./components/component-3-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-3-0", "workspace:components/component-3-0"],\
+            ["@flex-components/component-2-0", "virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-0"],\
+            ["@flex-components/component-2-1", "virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-3-1", [\
+        ["virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-3-1-virtual-bd99b6eb9e/1/components/component-3-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-3-1", "virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-1"],\
+            ["@flex-components/component-2-0", "virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-0"],\
+            ["@flex-components/component-2-1", "virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:4c89106725c2d3832e805999ec7ad02e2395e6d144582b6ec8e86df452e6dfb9e754f686a0bd158628ab35d54959cb0e25e5e004a7373d89d129ee2c3963746f#workspace:components/component-3-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-3-1-virtual-fcf66f42d2/1/components/component-3-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-3-1", "virtual:4c89106725c2d3832e805999ec7ad02e2395e6d144582b6ec8e86df452e6dfb9e754f686a0bd158628ab35d54959cb0e25e5e004a7373d89d129ee2c3963746f#workspace:components/component-3-1"],\
+            ["@flex-components/component-2-0", "virtual:da5b461702c5bea05ec12d44ad9c568b4d2f2dc396d6d183d56e2c1907b6e4a7c9655e7a993da16bee3f8b9b27fa92f288f95f410c52b42b5820d7ed4d5f383c#workspace:components/component-2-0"],\
+            ["@flex-components/component-2-1", "virtual:da5b461702c5bea05ec12d44ad9c568b4d2f2dc396d6d183d56e2c1907b6e4a7c9655e7a993da16bee3f8b9b27fa92f288f95f410c52b42b5820d7ed4d5f383c#workspace:components/component-2-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-3-1", {\
+          "packageLocation": "./components/component-3-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-3-1", "workspace:components/component-3-1"],\
+            ["@flex-components/component-2-0", "virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-0"],\
+            ["@flex-components/component-2-1", "virtual:5d7c74f620e0c2b9dd3ed0826d1e06239470ed69e5283c78f42f6dc589eb7f2ef75340817f0e6f9458758a0697568cf30893674728bd4bb81fc45b9111b6a9b9#workspace:components/component-2-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-4-0", [\
+        ["virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-4-0-virtual-89d191fff2/1/components/component-4-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-4-0", "virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-0"],\
+            ["@flex-components/component-3-0", "virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-0"],\
+            ["@flex-components/component-3-1", "virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:98179380662cca32aa77718047ec9cd2fe6e71376df0681ef81c6eb8d2e7fe35f1f5f127759c1ad9b2224c2240b5ef89544a6d31864db2bc424f188245be139f#workspace:components/component-4-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-4-0-virtual-4c89106725/1/components/component-4-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-4-0", "virtual:98179380662cca32aa77718047ec9cd2fe6e71376df0681ef81c6eb8d2e7fe35f1f5f127759c1ad9b2224c2240b5ef89544a6d31864db2bc424f188245be139f#workspace:components/component-4-0"],\
+            ["@flex-components/component-3-0", "virtual:4c89106725c2d3832e805999ec7ad02e2395e6d144582b6ec8e86df452e6dfb9e754f686a0bd158628ab35d54959cb0e25e5e004a7373d89d129ee2c3963746f#workspace:components/component-3-0"],\
+            ["@flex-components/component-3-1", "virtual:4c89106725c2d3832e805999ec7ad02e2395e6d144582b6ec8e86df452e6dfb9e754f686a0bd158628ab35d54959cb0e25e5e004a7373d89d129ee2c3963746f#workspace:components/component-3-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-4-0", {\
+          "packageLocation": "./components/component-4-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-4-0", "workspace:components/component-4-0"],\
+            ["@flex-components/component-3-0", "virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-0"],\
+            ["@flex-components/component-3-1", "virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-4-1", [\
+        ["virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-4-1-virtual-afd776aeb5/1/components/component-4-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-4-1", "virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-1"],\
+            ["@flex-components/component-3-0", "virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-0"],\
+            ["@flex-components/component-3-1", "virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:98179380662cca32aa77718047ec9cd2fe6e71376df0681ef81c6eb8d2e7fe35f1f5f127759c1ad9b2224c2240b5ef89544a6d31864db2bc424f188245be139f#workspace:components/component-4-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-4-1-virtual-0b3367b83c/1/components/component-4-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-4-1", "virtual:98179380662cca32aa77718047ec9cd2fe6e71376df0681ef81c6eb8d2e7fe35f1f5f127759c1ad9b2224c2240b5ef89544a6d31864db2bc424f188245be139f#workspace:components/component-4-1"],\
+            ["@flex-components/component-3-0", "virtual:4c89106725c2d3832e805999ec7ad02e2395e6d144582b6ec8e86df452e6dfb9e754f686a0bd158628ab35d54959cb0e25e5e004a7373d89d129ee2c3963746f#workspace:components/component-3-0"],\
+            ["@flex-components/component-3-1", "virtual:4c89106725c2d3832e805999ec7ad02e2395e6d144582b6ec8e86df452e6dfb9e754f686a0bd158628ab35d54959cb0e25e5e004a7373d89d129ee2c3963746f#workspace:components/component-3-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-4-1", {\
+          "packageLocation": "./components/component-4-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-4-1", "workspace:components/component-4-1"],\
+            ["@flex-components/component-3-0", "virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-0"],\
+            ["@flex-components/component-3-1", "virtual:047139454b278750b088a91179b29c8a9e658f3942082e5f6c8caaa11f410f3d6e398a5974dd70b8250425ab11befc5b073b61dcc434c7607aa74954d0d5225c#workspace:components/component-3-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-5-0", [\
+        ["virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-5-0-virtual-b9a15e082e/1/components/component-5-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-5-0", "virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-0"],\
+            ["@flex-components/component-4-0", "virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-0"],\
+            ["@flex-components/component-4-1", "virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:56a44ee1950f1dd0c1b23a0324d574d11b6323a31912aa7db22ced13a6619bd03de4e0ec3715d51b8a0674334c8d3185763b2e7e3b54cccd3a646b6c10501ae9#workspace:components/component-5-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-5-0-virtual-9817938066/1/components/component-5-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-5-0", "virtual:56a44ee1950f1dd0c1b23a0324d574d11b6323a31912aa7db22ced13a6619bd03de4e0ec3715d51b8a0674334c8d3185763b2e7e3b54cccd3a646b6c10501ae9#workspace:components/component-5-0"],\
+            ["@flex-components/component-4-0", "virtual:98179380662cca32aa77718047ec9cd2fe6e71376df0681ef81c6eb8d2e7fe35f1f5f127759c1ad9b2224c2240b5ef89544a6d31864db2bc424f188245be139f#workspace:components/component-4-0"],\
+            ["@flex-components/component-4-1", "virtual:98179380662cca32aa77718047ec9cd2fe6e71376df0681ef81c6eb8d2e7fe35f1f5f127759c1ad9b2224c2240b5ef89544a6d31864db2bc424f188245be139f#workspace:components/component-4-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-5-0", {\
+          "packageLocation": "./components/component-5-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-5-0", "workspace:components/component-5-0"],\
+            ["@flex-components/component-4-0", "virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-0"],\
+            ["@flex-components/component-4-1", "virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-5-1", [\
+        ["virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-5-1-virtual-7d6ec4fcc5/1/components/component-5-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-5-1", "virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-1"],\
+            ["@flex-components/component-4-0", "virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-0"],\
+            ["@flex-components/component-4-1", "virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:56a44ee1950f1dd0c1b23a0324d574d11b6323a31912aa7db22ced13a6619bd03de4e0ec3715d51b8a0674334c8d3185763b2e7e3b54cccd3a646b6c10501ae9#workspace:components/component-5-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-5-1-virtual-4f923b165b/1/components/component-5-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-5-1", "virtual:56a44ee1950f1dd0c1b23a0324d574d11b6323a31912aa7db22ced13a6619bd03de4e0ec3715d51b8a0674334c8d3185763b2e7e3b54cccd3a646b6c10501ae9#workspace:components/component-5-1"],\
+            ["@flex-components/component-4-0", "virtual:98179380662cca32aa77718047ec9cd2fe6e71376df0681ef81c6eb8d2e7fe35f1f5f127759c1ad9b2224c2240b5ef89544a6d31864db2bc424f188245be139f#workspace:components/component-4-0"],\
+            ["@flex-components/component-4-1", "virtual:98179380662cca32aa77718047ec9cd2fe6e71376df0681ef81c6eb8d2e7fe35f1f5f127759c1ad9b2224c2240b5ef89544a6d31864db2bc424f188245be139f#workspace:components/component-4-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-5-1", {\
+          "packageLocation": "./components/component-5-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-5-1", "workspace:components/component-5-1"],\
+            ["@flex-components/component-4-0", "virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-0"],\
+            ["@flex-components/component-4-1", "virtual:5f87a42091333c4287cf9e862eccd88781a7bfbc5b797b727b17e7dfb01637e319c66ccffd769fccdb0009dbf9ac6e54af727c2a5193158eb132df44880ea098#workspace:components/component-4-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-6-0", [\
+        ["virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-6-0-virtual-07bb57138b/1/components/component-6-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-6-0", "virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-0"],\
+            ["@flex-components/component-5-0", "virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-0"],\
+            ["@flex-components/component-5-1", "virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:4b9a5278de1663f91a43487fd53819f01c3f3b26d157ad0ad43887cbe1eab372e3d4f4c96c854204349bbcb88e44762faf65101b715a73957a4b02304148c529#workspace:components/component-6-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-6-0-virtual-56a44ee195/1/components/component-6-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-6-0", "virtual:4b9a5278de1663f91a43487fd53819f01c3f3b26d157ad0ad43887cbe1eab372e3d4f4c96c854204349bbcb88e44762faf65101b715a73957a4b02304148c529#workspace:components/component-6-0"],\
+            ["@flex-components/component-5-0", "virtual:56a44ee1950f1dd0c1b23a0324d574d11b6323a31912aa7db22ced13a6619bd03de4e0ec3715d51b8a0674334c8d3185763b2e7e3b54cccd3a646b6c10501ae9#workspace:components/component-5-0"],\
+            ["@flex-components/component-5-1", "virtual:56a44ee1950f1dd0c1b23a0324d574d11b6323a31912aa7db22ced13a6619bd03de4e0ec3715d51b8a0674334c8d3185763b2e7e3b54cccd3a646b6c10501ae9#workspace:components/component-5-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-6-0", {\
+          "packageLocation": "./components/component-6-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-6-0", "workspace:components/component-6-0"],\
+            ["@flex-components/component-5-0", "virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-0"],\
+            ["@flex-components/component-5-1", "virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-6-1", [\
+        ["virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-6-1-virtual-7dac89c27d/1/components/component-6-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-6-1", "virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-1"],\
+            ["@flex-components/component-5-0", "virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-0"],\
+            ["@flex-components/component-5-1", "virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:4b9a5278de1663f91a43487fd53819f01c3f3b26d157ad0ad43887cbe1eab372e3d4f4c96c854204349bbcb88e44762faf65101b715a73957a4b02304148c529#workspace:components/component-6-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-6-1-virtual-921caf4a8b/1/components/component-6-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-6-1", "virtual:4b9a5278de1663f91a43487fd53819f01c3f3b26d157ad0ad43887cbe1eab372e3d4f4c96c854204349bbcb88e44762faf65101b715a73957a4b02304148c529#workspace:components/component-6-1"],\
+            ["@flex-components/component-5-0", "virtual:56a44ee1950f1dd0c1b23a0324d574d11b6323a31912aa7db22ced13a6619bd03de4e0ec3715d51b8a0674334c8d3185763b2e7e3b54cccd3a646b6c10501ae9#workspace:components/component-5-0"],\
+            ["@flex-components/component-5-1", "virtual:56a44ee1950f1dd0c1b23a0324d574d11b6323a31912aa7db22ced13a6619bd03de4e0ec3715d51b8a0674334c8d3185763b2e7e3b54cccd3a646b6c10501ae9#workspace:components/component-5-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-6-1", {\
+          "packageLocation": "./components/component-6-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-6-1", "workspace:components/component-6-1"],\
+            ["@flex-components/component-5-0", "virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-0"],\
+            ["@flex-components/component-5-1", "virtual:28ac28e24e46485693e81b9ea22c6dbb01f4351009beef4f6aedcd08b20751adef4f6b6844a620500f52b21c79547d41d0327252314111ac0cbd445d9bb8d18f#workspace:components/component-5-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-7-0", [\
+        ["virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-7-0-virtual-e00532268e/1/components/component-7-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-7-0", "virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-0"],\
+            ["@flex-components/component-6-0", "virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-0"],\
+            ["@flex-components/component-6-1", "virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:351fa270ccf10dd06110244298707b43484b77925f24aac8cc33a443870473783de04575df8d79d5946c76c3c00d52d00704c1caa913d5e400a5c9f0637a03c9#workspace:components/component-7-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-7-0-virtual-4b9a5278de/1/components/component-7-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-7-0", "virtual:351fa270ccf10dd06110244298707b43484b77925f24aac8cc33a443870473783de04575df8d79d5946c76c3c00d52d00704c1caa913d5e400a5c9f0637a03c9#workspace:components/component-7-0"],\
+            ["@flex-components/component-6-0", "virtual:4b9a5278de1663f91a43487fd53819f01c3f3b26d157ad0ad43887cbe1eab372e3d4f4c96c854204349bbcb88e44762faf65101b715a73957a4b02304148c529#workspace:components/component-6-0"],\
+            ["@flex-components/component-6-1", "virtual:4b9a5278de1663f91a43487fd53819f01c3f3b26d157ad0ad43887cbe1eab372e3d4f4c96c854204349bbcb88e44762faf65101b715a73957a4b02304148c529#workspace:components/component-6-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-7-0", {\
+          "packageLocation": "./components/component-7-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-7-0", "workspace:components/component-7-0"],\
+            ["@flex-components/component-6-0", "virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-0"],\
+            ["@flex-components/component-6-1", "virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-7-1", [\
+        ["virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-7-1-virtual-ee437a8e30/1/components/component-7-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-7-1", "virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-1"],\
+            ["@flex-components/component-6-0", "virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-0"],\
+            ["@flex-components/component-6-1", "virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:351fa270ccf10dd06110244298707b43484b77925f24aac8cc33a443870473783de04575df8d79d5946c76c3c00d52d00704c1caa913d5e400a5c9f0637a03c9#workspace:components/component-7-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-7-1-virtual-b69b99d080/1/components/component-7-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-7-1", "virtual:351fa270ccf10dd06110244298707b43484b77925f24aac8cc33a443870473783de04575df8d79d5946c76c3c00d52d00704c1caa913d5e400a5c9f0637a03c9#workspace:components/component-7-1"],\
+            ["@flex-components/component-6-0", "virtual:4b9a5278de1663f91a43487fd53819f01c3f3b26d157ad0ad43887cbe1eab372e3d4f4c96c854204349bbcb88e44762faf65101b715a73957a4b02304148c529#workspace:components/component-6-0"],\
+            ["@flex-components/component-6-1", "virtual:4b9a5278de1663f91a43487fd53819f01c3f3b26d157ad0ad43887cbe1eab372e3d4f4c96c854204349bbcb88e44762faf65101b715a73957a4b02304148c529#workspace:components/component-6-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-7-1", {\
+          "packageLocation": "./components/component-7-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-7-1", "workspace:components/component-7-1"],\
+            ["@flex-components/component-6-0", "virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-0"],\
+            ["@flex-components/component-6-1", "virtual:10904bf13fc14c56fe1834cc1b12b29e63bf41ae4d2c6e4853b75e9f34ac689dea76d2a8c8cf54fedbec7d71dbc5135308cb72db3e0bf0097bb70f81024d24bc#workspace:components/component-6-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-8-0", [\
+        ["virtual:84d4136ac7403463c80335360d4c95bad45f256c9c36a77d25d277c9c6b8bf50801ba58d3e81e9593236b81b9c97b8c53bdd5055d4494bcf0ade4d5e459d952d#workspace:components/component-8-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-8-0-virtual-ab9d624b05/1/components/component-8-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-8-0", "virtual:84d4136ac7403463c80335360d4c95bad45f256c9c36a77d25d277c9c6b8bf50801ba58d3e81e9593236b81b9c97b8c53bdd5055d4494bcf0ade4d5e459d952d#workspace:components/component-8-0"],\
+            ["@flex-components/component-7-0", "virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-0"],\
+            ["@flex-components/component-7-1", "virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:components/component-8-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-8-0-virtual-351fa270cc/1/components/component-8-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-8-0", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:components/component-8-0"],\
+            ["@flex-components/component-7-0", "virtual:351fa270ccf10dd06110244298707b43484b77925f24aac8cc33a443870473783de04575df8d79d5946c76c3c00d52d00704c1caa913d5e400a5c9f0637a03c9#workspace:components/component-7-0"],\
+            ["@flex-components/component-7-1", "virtual:351fa270ccf10dd06110244298707b43484b77925f24aac8cc33a443870473783de04575df8d79d5946c76c3c00d52d00704c1caa913d5e400a5c9f0637a03c9#workspace:components/component-7-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-8-0", {\
+          "packageLocation": "./components/component-8-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-8-0", "workspace:components/component-8-0"],\
+            ["@flex-components/component-7-0", "virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-0"],\
+            ["@flex-components/component-7-1", "virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-8-1", [\
+        ["virtual:84d4136ac7403463c80335360d4c95bad45f256c9c36a77d25d277c9c6b8bf50801ba58d3e81e9593236b81b9c97b8c53bdd5055d4494bcf0ade4d5e459d952d#workspace:components/component-8-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-8-1-virtual-d52c6c472a/1/components/component-8-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-8-1", "virtual:84d4136ac7403463c80335360d4c95bad45f256c9c36a77d25d277c9c6b8bf50801ba58d3e81e9593236b81b9c97b8c53bdd5055d4494bcf0ade4d5e459d952d#workspace:components/component-8-1"],\
+            ["@flex-components/component-7-0", "virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-0"],\
+            ["@flex-components/component-7-1", "virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", null],\
+            ["react-dom", null],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:components/component-8-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-8-1-virtual-08c4e42533/1/components/component-8-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-8-1", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:components/component-8-1"],\
+            ["@flex-components/component-7-0", "virtual:351fa270ccf10dd06110244298707b43484b77925f24aac8cc33a443870473783de04575df8d79d5946c76c3c00d52d00704c1caa913d5e400a5c9f0637a03c9#workspace:components/component-7-0"],\
+            ["@flex-components/component-7-1", "virtual:351fa270ccf10dd06110244298707b43484b77925f24aac8cc33a443870473783de04575df8d79d5946c76c3c00d52d00704c1caa913d5e400a5c9f0637a03c9#workspace:components/component-7-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-8-1", {\
+          "packageLocation": "./components/component-8-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-8-1", "workspace:components/component-8-1"],\
+            ["@flex-components/component-7-0", "virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-0"],\
+            ["@flex-components/component-7-1", "virtual:101e465b757eacf81aa7aff3c68108c28894d39de99457cb2b04e85e2bbc09ddd761fae3676a39c93c3ae5ae9b54c723167232ac12315e2fd4f64ad488d63abf#workspace:components/component-7-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-9-0", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9-0", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-9-0-virtual-e11702e32a/1/components/component-9-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-9-0", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9-0"],\
+            ["@flex-components/component-8-0", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:components/component-8-0"],\
+            ["@flex-components/component-8-1", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:components/component-8-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-9-0", {\
+          "packageLocation": "./components/component-9-0/",\
+          "packageDependencies": [\
+            ["@flex-components/component-9-0", "workspace:components/component-9-0"],\
+            ["@flex-components/component-8-0", "virtual:84d4136ac7403463c80335360d4c95bad45f256c9c36a77d25d277c9c6b8bf50801ba58d3e81e9593236b81b9c97b8c53bdd5055d4494bcf0ade4d5e459d952d#workspace:components/component-8-0"],\
+            ["@flex-components/component-8-1", "virtual:84d4136ac7403463c80335360d4c95bad45f256c9c36a77d25d277c9c6b8bf50801ba58d3e81e9593236b81b9c97b8c53bdd5055d4494bcf0ade4d5e459d952d#workspace:components/component-8-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@flex-components/component-9-1", [\
+        ["virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9-1", {\
+          "packageLocation": "./.yarn/__virtual__/@flex-components-component-9-1-virtual-03f1a51cb9/1/components/component-9-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-9-1", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#workspace:components/component-9-1"],\
+            ["@flex-components/component-8-0", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:components/component-8-0"],\
+            ["@flex-components/component-8-1", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:components/component-8-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.9"],\
+            ["esbuild", "npm:0.16.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6db991fa51941fc26500602c320c9b77dc3ba52f5af4de6ddf1410b32336ba12acca5f6b9b89c9771d9a8b9d0b78baa8a952d14ef62d02f75ad7881bb36aee17#npm:18.2.0"],\
+            ["rollup", "npm:3.9.1"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["workspace:components/component-9-1", {\
+          "packageLocation": "./components/component-9-1/",\
+          "packageDependencies": [\
+            ["@flex-components/component-9-1", "workspace:components/component-9-1"],\
+            ["@flex-components/component-8-0", "virtual:84d4136ac7403463c80335360d4c95bad45f256c9c36a77d25d277c9c6b8bf50801ba58d3e81e9593236b81b9c97b8c53bdd5055d4494bcf0ade4d5e459d952d#workspace:components/component-8-0"],\
+            ["@flex-components/component-8-1", "virtual:84d4136ac7403463c80335360d4c95bad45f256c9c36a77d25d277c9c6b8bf50801ba58d3e81e9593236b81b9c97b8c53bdd5055d4494bcf0ade4d5e459d952d#workspace:components/component-8-1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["esbuild", "npm:0.16.12"],\
@@ -371,19 +1569,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@flexteam/bundler", [\
-        ["virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:bundler", {\
-          "packageLocation": "./.yarn/__virtual__/@flexteam-bundler-virtual-24a3557a78/1/bundler/",\
+        ["virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler", {\
+          "packageLocation": "./.yarn/__virtual__/@flexteam-bundler-virtual-abe8c6d943/1/bundler/",\
           "packageDependencies": [\
-            ["@flexteam/bundler", "virtual:c72145269dd062134c8cb8e24169648659eec916b44605e1ff528cb0d6fc7e2bc48a8cfdf36f9af649b952ef1cc6f53d244058f77ab526e5007c07a8505a8aec#workspace:bundler"],\
-            ["@rollup/plugin-commonjs", "virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:24.0.0"],\
-            ["@rollup/plugin-node-resolve", "virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:15.0.1"],\
+            ["@flexteam/bundler", "virtual:e11702e32a4d3fd57af132929f8941d8057f33ec96e322a712ebd250e35b2bd978d9f697ec2d244e7235d3047311279adcde3dbed1ffb569076b7a8194c12820#workspace:bundler"],\
+            ["@rollup/plugin-commonjs", "virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:24.0.0"],\
+            ["@rollup/plugin-node-resolve", "virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:15.0.1"],\
             ["@types/esbuild", null],\
             ["@types/lodash-es", "npm:4.17.6"],\
             ["@types/rollup", null],\
             ["esbuild", "npm:0.16.12"],\
             ["lodash-es", "npm:4.17.21"],\
             ["rollup", "npm:3.9.1"],\
-            ["rollup-plugin-esbuild", "virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:5.0.0"],\
+            ["rollup-plugin-esbuild", "virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:5.0.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "packagePeers": [\
@@ -398,8 +1596,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./bundler/",\
           "packageDependencies": [\
             ["@flexteam/bundler", "workspace:bundler"],\
-            ["@rollup/plugin-commonjs", "virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:24.0.0"],\
-            ["@rollup/plugin-node-resolve", "virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:15.0.1"],\
+            ["@rollup/plugin-commonjs", "virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:24.0.0"],\
+            ["@rollup/plugin-node-resolve", "virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:15.0.1"],\
             ["@types/lodash-es", "npm:4.17.6"],\
             ["lodash-es", "npm:4.17.21"],\
             ["rollup", "npm:3.9.1"],\
@@ -629,11 +1827,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:24.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/@rollup-plugin-commonjs-virtual-8e08aec047/0/cache/@rollup-plugin-commonjs-npm-24.0.0-b18d79acac-e2a1bf295b.zip/node_modules/@rollup/plugin-commonjs/",\
+        ["virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:24.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@rollup-plugin-commonjs-virtual-aa6ee7f60a/0/cache/@rollup-plugin-commonjs-npm-24.0.0-b18d79acac-e2a1bf295b.zip/node_modules/@rollup/plugin-commonjs/",\
           "packageDependencies": [\
-            ["@rollup/plugin-commonjs", "virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:24.0.0"],\
-            ["@rollup/pluginutils", "virtual:8e08aec047dd8bc1786e40e2afc75628e96fd819caabc6fd00d8cc4bd67c4c53b148cb33fe12af8ba57a2c277e54627398f476cd1e008cd7191d114fa29a58d7#npm:5.0.2"],\
+            ["@rollup/plugin-commonjs", "virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:24.0.0"],\
+            ["@rollup/pluginutils", "virtual:aa6ee7f60aeb19f224deb076db895eff28c912d631aaa302dab755e66f3012e72c3a74736f4512756f0acac373e93d0f37c024816cb75fa0438ffdfac10d8cf0#npm:5.0.2"],\
             ["@types/rollup", null],\
             ["commondir", "npm:1.0.1"],\
             ["estree-walker", "npm:2.0.2"],\
@@ -657,11 +1855,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:15.0.1", {\
-          "packageLocation": "./.yarn/__virtual__/@rollup-plugin-node-resolve-virtual-ca99a5a169/0/cache/@rollup-plugin-node-resolve-npm-15.0.1-3c00b5782e-90e30b4162.zip/node_modules/@rollup/plugin-node-resolve/",\
+        ["virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:15.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/@rollup-plugin-node-resolve-virtual-330a6c7f15/0/cache/@rollup-plugin-node-resolve-npm-15.0.1-3c00b5782e-90e30b4162.zip/node_modules/@rollup/plugin-node-resolve/",\
           "packageDependencies": [\
-            ["@rollup/plugin-node-resolve", "virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:15.0.1"],\
-            ["@rollup/pluginutils", "virtual:8e08aec047dd8bc1786e40e2afc75628e96fd819caabc6fd00d8cc4bd67c4c53b148cb33fe12af8ba57a2c277e54627398f476cd1e008cd7191d114fa29a58d7#npm:5.0.2"],\
+            ["@rollup/plugin-node-resolve", "virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:15.0.1"],\
+            ["@rollup/pluginutils", "virtual:aa6ee7f60aeb19f224deb076db895eff28c912d631aaa302dab755e66f3012e72c3a74736f4512756f0acac373e93d0f37c024816cb75fa0438ffdfac10d8cf0#npm:5.0.2"],\
             ["@types/resolve", "npm:1.20.2"],\
             ["@types/rollup", null],\
             ["deepmerge", "npm:4.2.2"],\
@@ -685,10 +1883,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:8e08aec047dd8bc1786e40e2afc75628e96fd819caabc6fd00d8cc4bd67c4c53b148cb33fe12af8ba57a2c277e54627398f476cd1e008cd7191d114fa29a58d7#npm:5.0.2", {\
-          "packageLocation": "./.yarn/__virtual__/@rollup-pluginutils-virtual-3a09adadad/0/cache/@rollup-pluginutils-npm-5.0.2-6aa9d0ddd4-edea15e543.zip/node_modules/@rollup/pluginutils/",\
+        ["virtual:aa6ee7f60aeb19f224deb076db895eff28c912d631aaa302dab755e66f3012e72c3a74736f4512756f0acac373e93d0f37c024816cb75fa0438ffdfac10d8cf0#npm:5.0.2", {\
+          "packageLocation": "./.yarn/__virtual__/@rollup-pluginutils-virtual-aaecd77feb/0/cache/@rollup-pluginutils-npm-5.0.2-6aa9d0ddd4-edea15e543.zip/node_modules/@rollup/pluginutils/",\
           "packageDependencies": [\
-            ["@rollup/pluginutils", "virtual:8e08aec047dd8bc1786e40e2afc75628e96fd819caabc6fd00d8cc4bd67c4c53b148cb33fe12af8ba57a2c277e54627398f476cd1e008cd7191d114fa29a58d7#npm:5.0.2"],\
+            ["@rollup/pluginutils", "virtual:aa6ee7f60aeb19f224deb076db895eff28c912d631aaa302dab755e66f3012e72c3a74736f4512756f0acac373e93d0f37c024816cb75fa0438ffdfac10d8cf0#npm:5.0.2"],\
             ["@types/estree", "npm:1.0.0"],\
             ["@types/rollup", null],\
             ["estree-walker", "npm:2.0.2"],\
@@ -2361,16 +3559,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:5.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/rollup-plugin-esbuild-virtual-ae1c0aed94/0/cache/rollup-plugin-esbuild-npm-5.0.0-38ae3f8208-59b2922db3.zip/node_modules/rollup-plugin-esbuild/",\
+        ["virtual:a2dcde77f83c2e3af7dfd35518ebdc870ba4eb742d0284fd6cc07a732eaef584a7a42d191d446e5930cc3266973c080bedc0314b13b55013b655950ff3cc7a03#npm:5.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/rollup-plugin-esbuild-virtual-2ef677d0eb/0/cache/rollup-plugin-esbuild-npm-5.0.0-38ae3f8208-59b2922db3.zip/node_modules/rollup-plugin-esbuild/",\
           "packageDependencies": [\
-            ["rollup-plugin-esbuild", "virtual:24a3557a7854d1dada4a183c49d9f9728414379121c279876e725526661cfc2e2d917e76585839147f4ec6e50931880bb6b7151b1b9bf5754d158a28ec87620b#npm:5.0.0"],\
-            ["@rollup/pluginutils", "virtual:8e08aec047dd8bc1786e40e2afc75628e96fd819caabc6fd00d8cc4bd67c4c53b148cb33fe12af8ba57a2c277e54627398f476cd1e008cd7191d114fa29a58d7#npm:5.0.2"],\
+            ["rollup-plugin-esbuild", "virtual:a2dcde77f83c2e3af7dfd35518ebdc870ba4eb742d0284fd6cc07a732eaef584a7a42d191d446e5930cc3266973c080bedc0314b13b55013b655950ff3cc7a03#npm:5.0.0"],\
+            ["@rollup/pluginutils", "virtual:aa6ee7f60aeb19f224deb076db895eff28c912d631aaa302dab755e66f3012e72c3a74736f4512756f0acac373e93d0f37c024816cb75fa0438ffdfac10d8cf0#npm:5.0.2"],\
             ["@types/esbuild", null],\
             ["@types/rollup", null],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
             ["es-module-lexer", "npm:1.1.0"],\
-            ["esbuild", "npm:0.16.12"],\
+            ["esbuild", null],\
             ["joycon", "npm:3.1.1"],\
             ["jsonc-parser", "npm:3.2.0"],\
             ["rollup", "npm:3.9.1"]\
@@ -2383,16 +3581,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:a2dcde77f83c2e3af7dfd35518ebdc870ba4eb742d0284fd6cc07a732eaef584a7a42d191d446e5930cc3266973c080bedc0314b13b55013b655950ff3cc7a03#npm:5.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/rollup-plugin-esbuild-virtual-2ef677d0eb/0/cache/rollup-plugin-esbuild-npm-5.0.0-38ae3f8208-59b2922db3.zip/node_modules/rollup-plugin-esbuild/",\
+        ["virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:5.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/rollup-plugin-esbuild-virtual-b1720baac4/0/cache/rollup-plugin-esbuild-npm-5.0.0-38ae3f8208-59b2922db3.zip/node_modules/rollup-plugin-esbuild/",\
           "packageDependencies": [\
-            ["rollup-plugin-esbuild", "virtual:a2dcde77f83c2e3af7dfd35518ebdc870ba4eb742d0284fd6cc07a732eaef584a7a42d191d446e5930cc3266973c080bedc0314b13b55013b655950ff3cc7a03#npm:5.0.0"],\
-            ["@rollup/pluginutils", "virtual:8e08aec047dd8bc1786e40e2afc75628e96fd819caabc6fd00d8cc4bd67c4c53b148cb33fe12af8ba57a2c277e54627398f476cd1e008cd7191d114fa29a58d7#npm:5.0.2"],\
+            ["rollup-plugin-esbuild", "virtual:abe8c6d94311260c1fa34c5ff066dfc56e196ffffdb7f176ad091a998c73d9379f92abf2d9e4c21361fdf819196d4883ad2603a5f607296903c5ce28eb2af186#npm:5.0.0"],\
+            ["@rollup/pluginutils", "virtual:aa6ee7f60aeb19f224deb076db895eff28c912d631aaa302dab755e66f3012e72c3a74736f4512756f0acac373e93d0f37c024816cb75fa0438ffdfac10d8cf0#npm:5.0.2"],\
             ["@types/esbuild", null],\
             ["@types/rollup", null],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
             ["es-module-lexer", "npm:1.1.0"],\
-            ["esbuild", null],\
+            ["esbuild", "npm:0.16.12"],\
             ["joycon", "npm:3.1.1"],\
             ["jsonc-parser", "npm:3.2.0"],\
             ["rollup", "npm:3.9.1"]\

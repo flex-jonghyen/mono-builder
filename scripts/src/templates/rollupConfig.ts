@@ -1,9 +1,21 @@
 type Params = {
   bundled?: boolean;
   externals?: string[];
+  packageJson: string;
 };
 
-export const getRollupConfig = ({ bundled = true, externals = [] }: Params) => {
+export const getRollupConfig = ({
+  bundled = true,
+  externals = [],
+  packageJson,
+}: Params) => {
+  const { dependencies, peerDependencies } = JSON.parse(packageJson);
+
+  externals.push(
+    ...Object.keys(dependencies),
+    ...Object.keys(peerDependencies)
+  );
+
   return `
   import { esm, rollup } from "@flexteam/bundler";
   const config = esm({
@@ -15,7 +27,7 @@ export const getRollupConfig = ({ bundled = true, externals = [] }: Params) => {
           : `dir: 'dist', preserveModules: true, preserveModulesRoot: 'src'`
       }
     },
-    external: [${externals.join(",")}],
+    external: [${externals.map((name) => `"${name}"`).join(",")}],
   });
   export default rollup(config);
   `;

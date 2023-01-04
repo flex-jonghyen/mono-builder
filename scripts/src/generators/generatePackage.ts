@@ -29,10 +29,9 @@ export const generatePackage = async ({
 }: Params) => {
   const dependencies = getDependenciesFromFiles(files);
 
-  const rollupConfig = bundled ? getRollupConfig({}) : "";
-
   let packageJson = "";
   let tsconfig = "";
+  let rollupConfig = "";
 
   if (type === "component") {
     const packageJsonParams = {
@@ -45,6 +44,9 @@ export const generatePackage = async ({
       : getNonBundledFunctionPackageJson(packageJsonParams);
 
     tsconfig = getComponentTsConfig();
+    rollupConfig = bundled
+      ? getRollupConfig({ externals: ["react/jsx-runtime"], packageJson })
+      : "";
   } else {
     const packageJsonParams = {
       packageName: `@flexteam/${name}`,
@@ -56,6 +58,10 @@ export const generatePackage = async ({
       : getNonBundledFunctionPackageJson(packageJsonParams);
 
     tsconfig = getFunctionTsConfig();
+
+    rollupConfig = bundled
+      ? getRollupConfig({ externals: [], packageJson })
+      : "";
   }
 
   const packageDir = path.join(

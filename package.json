@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "postinstall": "yarn dlx @yarnpkg/sdks vscode",
-    "build": "yarn turbo build --filter=@flex-apps/people... --no-cache"
+    "build": "yarn turbo build --filter=@flex-apps/people^... --no-cache"
   },
   "devDependencies": {
     "@flexteam/mono-builder": "workspace:^",

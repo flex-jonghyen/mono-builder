@@ -163,7 +163,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@flex-apps/people@workspace:apps/people"
   dependencies:
-    "@flex-components/component-1-0": "workspace:^"
+    "@flex-components/component-9-0": "workspace:^"
+    "@flex-components/component-9-1": "workspace:^"
     "@types/node": 18.11.12
     "@types/react": 18.0.26
     "@types/react-dom": 18.0.9
@@ -190,11 +191,334 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@flex-components/component-0-1@workspace:^, @flex-components/component-0-1@workspace:components/component-0-1":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-0-1@workspace:components/component-0-1"
+  dependencies:
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
 "@flex-components/component-1-0@workspace:^, @flex-components/component-1-0@workspace:components/component-1-0":
   version: 0.0.0-use.local
   resolution: "@flex-components/component-1-0@workspace:components/component-1-0"
   dependencies:
     "@flex-components/component-0-0": "workspace:^"
+    "@flex-components/component-0-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-1-1@workspace:^, @flex-components/component-1-1@workspace:components/component-1-1":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-1-1@workspace:components/component-1-1"
+  dependencies:
+    "@flex-components/component-0-0": "workspace:^"
+    "@flex-components/component-0-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-2-0@workspace:^, @flex-components/component-2-0@workspace:components/component-2-0":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-2-0@workspace:components/component-2-0"
+  dependencies:
+    "@flex-components/component-1-0": "workspace:^"
+    "@flex-components/component-1-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-2-1@workspace:^, @flex-components/component-2-1@workspace:components/component-2-1":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-2-1@workspace:components/component-2-1"
+  dependencies:
+    "@flex-components/component-1-0": "workspace:^"
+    "@flex-components/component-1-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-3-0@workspace:^, @flex-components/component-3-0@workspace:components/component-3-0":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-3-0@workspace:components/component-3-0"
+  dependencies:
+    "@flex-components/component-2-0": "workspace:^"
+    "@flex-components/component-2-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-3-1@workspace:^, @flex-components/component-3-1@workspace:components/component-3-1":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-3-1@workspace:components/component-3-1"
+  dependencies:
+    "@flex-components/component-2-0": "workspace:^"
+    "@flex-components/component-2-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-4-0@workspace:^, @flex-components/component-4-0@workspace:components/component-4-0":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-4-0@workspace:components/component-4-0"
+  dependencies:
+    "@flex-components/component-3-0": "workspace:^"
+    "@flex-components/component-3-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-4-1@workspace:^, @flex-components/component-4-1@workspace:components/component-4-1":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-4-1@workspace:components/component-4-1"
+  dependencies:
+    "@flex-components/component-3-0": "workspace:^"
+    "@flex-components/component-3-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-5-0@workspace:^, @flex-components/component-5-0@workspace:components/component-5-0":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-5-0@workspace:components/component-5-0"
+  dependencies:
+    "@flex-components/component-4-0": "workspace:^"
+    "@flex-components/component-4-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-5-1@workspace:^, @flex-components/component-5-1@workspace:components/component-5-1":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-5-1@workspace:components/component-5-1"
+  dependencies:
+    "@flex-components/component-4-0": "workspace:^"
+    "@flex-components/component-4-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-6-0@workspace:^, @flex-components/component-6-0@workspace:components/component-6-0":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-6-0@workspace:components/component-6-0"
+  dependencies:
+    "@flex-components/component-5-0": "workspace:^"
+    "@flex-components/component-5-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-6-1@workspace:^, @flex-components/component-6-1@workspace:components/component-6-1":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-6-1@workspace:components/component-6-1"
+  dependencies:
+    "@flex-components/component-5-0": "workspace:^"
+    "@flex-components/component-5-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-7-0@workspace:^, @flex-components/component-7-0@workspace:components/component-7-0":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-7-0@workspace:components/component-7-0"
+  dependencies:
+    "@flex-components/component-6-0": "workspace:^"
+    "@flex-components/component-6-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-7-1@workspace:^, @flex-components/component-7-1@workspace:components/component-7-1":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-7-1@workspace:components/component-7-1"
+  dependencies:
+    "@flex-components/component-6-0": "workspace:^"
+    "@flex-components/component-6-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-8-0@workspace:^, @flex-components/component-8-0@workspace:components/component-8-0":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-8-0@workspace:components/component-8-0"
+  dependencies:
+    "@flex-components/component-7-0": "workspace:^"
+    "@flex-components/component-7-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-8-1@workspace:^, @flex-components/component-8-1@workspace:components/component-8-1":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-8-1@workspace:components/component-8-1"
+  dependencies:
+    "@flex-components/component-7-0": "workspace:^"
+    "@flex-components/component-7-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-9-0@workspace:^, @flex-components/component-9-0@workspace:components/component-9-0":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-9-0@workspace:components/component-9-0"
+  dependencies:
+    "@flex-components/component-8-0": "workspace:^"
+    "@flex-components/component-8-1": "workspace:^"
+    "@flexteam/bundler": "workspace:^"
+    "@types/react": 18.0.26
+    "@types/react-dom": 18.0.9
+    esbuild: 0.16.12
+    rollup: ^3.9.1
+    typescript: 4.9.4
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
+"@flex-components/component-9-1@workspace:^, @flex-components/component-9-1@workspace:components/component-9-1":
+  version: 0.0.0-use.local
+  resolution: "@flex-components/component-9-1@workspace:components/component-9-1"
+  dependencies:
+    "@flex-components/component-8-0": "workspace:^"
+    "@flex-components/component-8-1": "workspace:^"
     "@flexteam/bundler": "workspace:^"
     "@types/react": 18.0.26
     "@types/react-dom": 18.0.9
