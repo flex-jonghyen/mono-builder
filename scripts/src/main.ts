@@ -27,8 +27,8 @@ const env = await validateEnv({
     PAGE_COUNT: z.coerce.number(),
     IMPORT_RATIO: z.coerce.number(),
     MODULE_TYPE: z.string().optional().default("all"),
-    BUNDLED: z.coerce.boolean().default(false),
-    PRESERVE_MODULE: z.coerce.boolean().default(false),
+    BUNDLED: z.string().transform((value) => value === "true"),
+    PRESERVE_MODULE: z.string().transform((value) => value === "true"),
   }).parse,
 });
 
