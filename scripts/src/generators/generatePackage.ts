@@ -18,7 +18,9 @@ import { getRollupConfig } from "../templates/rollupConfig.js";
 import type { Package } from "../types/index.js";
 import { generateFile } from "./generateFile.js";
 
-type Params = Package;
+type Params = Package & {
+  preserveModule: boolean;
+};
 
 export const generatePackage = async ({
   bundled,
@@ -26,6 +28,7 @@ export const generatePackage = async ({
   name,
   type,
   importRatio,
+  preserveModule,
 }: Params) => {
   const dependencies = getDependenciesFromFiles(files);
 
@@ -45,7 +48,11 @@ export const generatePackage = async ({
 
     tsconfig = getComponentTsConfig();
     rollupConfig = bundled
-      ? getRollupConfig({ externals: ["react/jsx-runtime"], packageJson })
+      ? getRollupConfig({
+          preserveModule,
+          externals: ["react/jsx-runtime"],
+          packageJson,
+        })
       : "";
   } else {
     const packageJsonParams = {

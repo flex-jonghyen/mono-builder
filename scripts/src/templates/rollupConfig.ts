@@ -1,11 +1,11 @@
 type Params = {
-  bundled?: boolean;
+  preserveModule?: boolean;
   externals?: string[];
   packageJson: string;
 };
 
 export const getRollupConfig = ({
-  bundled = true,
+  preserveModule = false,
   externals = [],
   packageJson,
 }: Params) => {
@@ -22,9 +22,9 @@ export const getRollupConfig = ({
     input: "src/index.ts",
     output: {
       ${
-        bundled
-          ? `file: 'dist/index.js'`
-          : `dir: 'dist', preserveModules: true, preserveModulesRoot: 'src'`
+        preserveModule
+          ? `dir: 'dist', preserveModules: true, preserveModulesRoot: 'src'`
+          : `file: 'dist/index.js'`
       }
     },
     external: [${externals.map((name) => `"${name}"`).join(",")}],

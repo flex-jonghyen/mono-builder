@@ -28,6 +28,7 @@ const env = await validateEnv({
     IMPORT_RATIO: z.coerce.number(),
     MODULE_TYPE: z.string().optional().default("all"),
     BUNDLED: z.coerce.boolean().default(false),
+    PRESERVE_MODULE: z.coerce.boolean().default(false),
   }).parse,
 });
 
@@ -40,6 +41,7 @@ const {
   WIDTH,
   MODULE_TYPE,
   BUNDLED,
+  PRESERVE_MODULE,
 } = env;
 
 export const main = async () => {
@@ -80,7 +82,10 @@ export const main = async () => {
         };
 
         functionSubPackages.push(functionPackage);
-        await generatePackage(functionPackage);
+        await generatePackage({
+          ...functionPackage,
+          preserveModule: PRESERVE_MODULE,
+        });
       }
       functionPackages = functionSubPackages;
       functionSubPackages = [];
@@ -120,7 +125,10 @@ export const main = async () => {
         };
 
         componentSubPackages.push(componentPackage);
-        await generatePackage(componentPackage);
+        await generatePackage({
+          ...componentPackage,
+          preserveModule: PRESERVE_MODULE,
+        });
       }
       componentPackages = componentSubPackages;
       componentSubPackages = [];

@@ -9,7 +9,13 @@
     "build": {
       "dependsOn": ["^build", "type"],
       "inputs": ["src/**", "rollup.config.mjs", "tsconfig.json"],
-      "outputs": ["dist/**"]
+      "outputs": ["dist/**", "tsconfig.tsbuildinfo"]
+    },
+    "dev": {
+      "cache": false,
+      "dependsOn": ["type"],
+      "inputs": ["src/**", "rollup.config.mjs", "tsconfig.json"],
+      "outputs": ["dist/**", "tsconfig.tsbuildinfo"]
     }
   }
 }

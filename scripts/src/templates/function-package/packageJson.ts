@@ -38,7 +38,8 @@ export const getBundledFunctionPackageJson = ({
     "types": "dist/index.d.ts",
     "scripts": {
       "build": "rollup --config rollup.config.mjs",
-      "type": "tsc -p tsconfig.json"
+      "dev": "yarn build --watch",
+      "type": "tsc -p tsconfig.json",
     },
     "dependencies": {
         ${dependencies

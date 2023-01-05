@@ -44,6 +44,7 @@ export const getBundledComponentPackageJson = ({
     "types": "dist/index.d.ts",
     "scripts": {
       "build": "rollup --config rollup.config.mjs",
+      "dev": "yarn build --watch",
       "type": "tsc -p tsconfig.json"
     },
     "dependencies": {
