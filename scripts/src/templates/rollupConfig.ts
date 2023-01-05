@@ -12,8 +12,8 @@ export const getRollupConfig = ({
   const { dependencies, peerDependencies } = JSON.parse(packageJson);
 
   externals.push(
-    ...Object.keys(dependencies),
-    ...Object.keys(peerDependencies)
+    ...Object.keys(dependencies ?? []),
+    ...Object.keys(peerDependencies ?? [])
   );
 
   return `

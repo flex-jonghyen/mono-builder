@@ -67,7 +67,7 @@ export const generatePackage = async ({
     tsconfig = getFunctionTsConfig();
 
     rollupConfig = bundled
-      ? getRollupConfig({ externals: [], packageJson })
+      ? getRollupConfig({ preserveModule, externals: [], packageJson })
       : "";
   }
 

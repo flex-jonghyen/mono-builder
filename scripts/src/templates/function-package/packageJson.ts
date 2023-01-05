@@ -37,19 +37,20 @@ export const getBundledFunctionPackageJson = ({
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-      "build": "rollup --config rollup.config.mjs",
-      "dev": "yarn build --watch",
-      "type": "tsc -p tsconfig.json",
+        "build": "rollup --config rollup.config.mjs",
+        "dev": "yarn build --watch",
+        "type": "tsc -p tsconfig.json"
     },
     "dependencies": {
-        ${dependencies
-          .map(({ name, version }) => `"${name}": "${version}"`)
-          .join(",\n")}
+      ${dependencies
+        .map(({ name, version }) => `"${name}": "${version}"`)
+        .join(",\n")}
     },
     "devDependencies": {
         "typescript": "4.9.4",
         "@flexteam/bundler": "workspace:^",
-        "esbuild": "0.16.12"
+        "esbuild": "0.16.12",
+        "rollup": "^3.9.1"
     }
 }`;
 };
