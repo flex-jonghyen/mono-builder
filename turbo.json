@@ -4,12 +4,12 @@
     "type": {
       "dependsOn": ["^type"],
       "inputs": ["src/**", "tsconfig.json"],
-      "outputs": ["dist/**"]
+      "outputs": ["dist/*.d.ts", "tsconfig.tsbuildinfo"]
     },
     "build": {
-      "dependsOn": ["^build", "type"],
+      "dependsOn": ["^type", "^build"],
       "inputs": ["src/**", "rollup.config.mjs", "tsconfig.json"],
-      "outputs": ["dist/**", "tsconfig.tsbuildinfo"]
+      "outputs": ["dist/*.js"]
     },
     "dev": {
       "cache": false,
