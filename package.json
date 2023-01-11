@@ -7,7 +7,8 @@
     "apps/*",
     "components/*",
     "functions/*",
-    "bundler"
+    "bundler",
+    "watcher"
   ],
   "scripts": {
     "postinstall": "yarn dlx @yarnpkg/sdks vscode",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@flexteam/mono-builder": "workspace:^",
+    "@flexteam/watcher": "workspace:^",
     "turbo": "^1.6.3",
     "typescript": "^4.9.4"
   }
