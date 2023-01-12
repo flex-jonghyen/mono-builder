@@ -152,6 +152,7 @@ export const main = async () => {
     name: "people",
     files: pages,
     importRatio: IMPORT_RATIO,
+    bundled: BUNDLED,
   });
 };
 

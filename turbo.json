@@ -7,15 +7,13 @@
       "outputs": ["dist/*.d.ts", "tsconfig.tsbuildinfo"]
     },
     "build": {
-      "dependsOn": ["^type", "^build"],
+      "dependsOn": ["^build"],
       "inputs": ["src/**", "rollup.config.mjs", "tsconfig.json"],
       "outputs": ["dist/*.js"]
     },
     "dev": {
       "cache": false,
-      "dependsOn": ["type"],
-      "inputs": ["src/**", "rollup.config.mjs", "tsconfig.json"],
-      "outputs": ["dist/**", "tsconfig.tsbuildinfo"]
+      "persistent": true
     }
   }
 }
