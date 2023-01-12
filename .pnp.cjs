@@ -19091,7 +19091,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./scripts/",\
           "packageDependencies": [\
             ["@flexteam/mono-builder", "workspace:scripts"],\
-            ["@types/node", "npm:18.11.15"],\
+            ["@types/node", "npm:18.11.18"],\
             ["dotenv", "npm:16.0.3"],\
             ["tiny-dedent", "npm:1.0.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
@@ -19108,14 +19108,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@flexteam/watcher", "workspace:watcher"],\
             ["@flexteam/bundler", "virtual:60c1f2ee064f817186faa8f8da5d370bb2af77a48d0761afecb6780b0caee5a6606a79d736393e4eb51e0ab602e77aa84768a23ebd63e9d67c1e524b4eb09c25#workspace:bundler"],\
             ["@parcel/watcher", "npm:2.1.0"],\
+            ["@types/minimist", "npm:1.2.2"],\
             ["@types/node", "npm:18.11.18"],\
             ["esbuild", "npm:0.16.16"],\
+            ["minimist", "npm:1.2.7"],\
             ["rollup", "npm:3.9.1"],\
             ["rxjs", "npm:7.8.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
             ["vite", "virtual:60c1f2ee064f817186faa8f8da5d370bb2af77a48d0761afecb6780b0caee5a6606a79d736393e4eb51e0ab602e77aa84768a23ebd63e9d67c1e524b4eb09c25#npm:4.0.4"],\
             ["vitest", "virtual:60c1f2ee064f817186faa8f8da5d370bb2af77a48d0761afecb6780b0caee5a6606a79d736393e4eb51e0ab602e77aa84768a23ebd63e9d67c1e524b4eb09c25#npm:0.27.0"],\
-            ["zx", "npm:7.1.1"]\
+            ["zod", "npm:3.20.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -19464,7 +19466,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-fs-extra-npm-9.0.13-12fb7badd7-add79e212a.zip/node_modules/@types/fs-extra/",\
           "packageDependencies": [\
             ["@types/fs-extra", "npm:9.0.13"],\
-            ["@types/node", "npm:18.11.15"]\
+            ["@types/node", "npm:18.11.18"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19502,13 +19504,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-18.11.12-3e4f66dc1e-6c67f0998a.zip/node_modules/@types/node/",\
           "packageDependencies": [\
             ["@types/node", "npm:18.11.12"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:18.11.15", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.15-556d6408a5-cae8692a5c.zip/node_modules/@types/node/",\
-          "packageDependencies": [\
-            ["@types/node", "npm:18.11.15"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -21882,42 +21877,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:3a375abcecc5528671d80cfe8452037808078ed6534e7213a446ba631f2b3fa2c7022457baa2c070d29d01f3168ceb1a472b17ed2b046cc8007c2754249e01d6#npm:4.0.4", {\
-          "packageLocation": "./.yarn/__virtual__/vite-virtual-bd0dc1e356/0/cache/vite-npm-4.0.4-33a47fc7a2-eb86c8cdfe.zip/node_modules/vite/",\
-          "packageDependencies": [\
-            ["vite", "virtual:3a375abcecc5528671d80cfe8452037808078ed6534e7213a446ba631f2b3fa2c7022457baa2c070d29d01f3168ceb1a472b17ed2b046cc8007c2754249e01d6#npm:4.0.4"],\
-            ["@types/less", null],\
-            ["@types/node", "npm:18.11.15"],\
-            ["@types/sass", null],\
-            ["@types/stylus", null],\
-            ["@types/sugarss", null],\
-            ["@types/terser", null],\
-            ["esbuild", "npm:0.16.16"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
-            ["less", null],\
-            ["postcss", "npm:8.4.21"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
-            ["rollup", "npm:3.9.1"],\
-            ["sass", null],\
-            ["stylus", null],\
-            ["sugarss", null],\
-            ["terser", null]\
-          ],\
-          "packagePeers": [\
-            "@types/less",\
-            "@types/node",\
-            "@types/sass",\
-            "@types/stylus",\
-            "@types/sugarss",\
-            "@types/terser",\
-            "less",\
-            "sass",\
-            "stylus",\
-            "sugarss",\
-            "terser"\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["virtual:60c1f2ee064f817186faa8f8da5d370bb2af77a48d0761afecb6780b0caee5a6606a79d736393e4eb51e0ab602e77aa84768a23ebd63e9d67c1e524b4eb09c25#npm:4.0.4", {\
           "packageLocation": "./.yarn/__virtual__/vite-virtual-6a6ece8739/0/cache/vite-npm-4.0.4-33a47fc7a2-eb86c8cdfe.zip/node_modules/vite/",\
           "packageDependencies": [\
@@ -22026,7 +21985,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/edge-runtime__vm", null],\
             ["@types/happy-dom", null],\
             ["@types/jsdom", null],\
-            ["@types/node", "npm:18.11.15"],\
+            ["@types/node", "npm:18.11.18"],\
             ["@types/vitest__browser", null],\
             ["@types/vitest__ui", null],\
             ["@vitest/browser", null],\
@@ -22045,7 +22004,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tinybench", "npm:2.3.1"],\
             ["tinypool", "npm:0.3.0"],\
             ["tinyspy", "npm:1.0.2"],\
-            ["vite", "virtual:3a375abcecc5528671d80cfe8452037808078ed6534e7213a446ba631f2b3fa2c7022457baa2c070d29d01f3168ceb1a472b17ed2b046cc8007c2754249e01d6#npm:4.0.4"],\
+            ["vite", "virtual:60c1f2ee064f817186faa8f8da5d370bb2af77a48d0761afecb6780b0caee5a6606a79d736393e4eb51e0ab602e77aa84768a23ebd63e9d67c1e524b4eb09c25#npm:4.0.4"],\
             ["vite-node", "npm:0.27.0"]\
           ],\
           "packagePeers": [\
@@ -22135,7 +22094,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["zx", "npm:7.1.1"],\
             ["@types/fs-extra", "npm:9.0.13"],\
             ["@types/minimist", "npm:1.2.2"],\
-            ["@types/node", "npm:18.11.15"],\
+            ["@types/node", "npm:18.11.18"],\
             ["@types/ps-tree", "npm:1.1.2"],\
             ["@types/which", "npm:2.0.1"],\
             ["chalk", "npm:5.2.0"],\

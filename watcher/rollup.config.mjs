@@ -1,11 +1,19 @@
-import { esm, rollup } from "@flexteam/bundler";
+import { esm } from "@flexteam/bundler";
 
-const config = esm({
-  input: "src/index.ts",
+const source = esm({
+  input: "src/subscribe.ts",
+  output: {
+    file: "dist/index.mjs",
+  },
+  external: ["@parcel/watcher", "rxjs"],
+});
+
+const bin = esm({
+  input: "src/bin/index.ts",
   output: {
     file: "bin/index.mjs",
   },
-  external: ["@parcel/watcher", "zx"],
+  external: ["@parcel/watcher", "rxjs", "minimist", "zod"],
 });
 
-export default rollup(config);
+export default [source, bin];

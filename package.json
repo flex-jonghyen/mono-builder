@@ -21,7 +21,7 @@
   "devDependencies": {
     "@flexteam/mono-builder": "workspace:^",
     "@flexteam/watcher": "workspace:^",
-    "turbo": "^1.6.3",
+    "turbo": "1.6.3",
     "typescript": "^4.9.4"
   }
 }

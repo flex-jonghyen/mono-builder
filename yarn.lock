@@ -6395,14 +6395,16 @@ __metadata:
   dependencies:
     "@flexteam/bundler": "workspace:^"
     "@parcel/watcher": ^2.1.0
+    "@types/minimist": ^1.2.2
     "@types/node": ^18.11.18
     esbuild: ^0.16.16
+    minimist: ^1.2.7
     rollup: ^3.9.1
     rxjs: ^7.8.0
     typescript: ^4.9.4
     vite: ^4.0.4
     vitest: ^0.27.0
-    zx: ^7.1.1
+    zod: ^3.20.2
   bin:
     watcher: bin/index.mjs
   languageName: unknown
@@ -6705,10 +6707,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^18.11.10, @types/node@npm:^18.7.20":
-  version: 18.11.15
-  resolution: "@types/node@npm:18.11.15"
-  checksum: cae8692a5cee0316f93ee0342237eb921f70c51afb37c661c711a925a4642654ae7e404c5a80899d481c0cfaff3a6891ef04bacd330a2e72734192bfc91dc2d8
+"@types/node@npm:*, @types/node@npm:^18.11.10, @types/node@npm:^18.11.18, @types/node@npm:^18.7.20":
+  version: 18.11.18
+  resolution: "@types/node@npm:18.11.18"
+  checksum: 03f17f9480f8d775c8a72da5ea7e9383db5f6d85aa5fefde90dd953a1449bd5e4ffde376f139da4f3744b4c83942166d2a7603969a6f8ea826edfb16e6e3b49d
   languageName: node
   linkType: hard
 
@@ -6716,13 +6718,6 @@ __metadata:
   version: 18.11.12
   resolution: "@types/node@npm:18.11.12"
   checksum: 6c67f0998a9ad8ef0f357fcc0d72841c579576c746cfbac67c9d0229e1cd219d3b96297c2caaeaa4084ba7e9ad112b412e64af4066e522faa0be4ef9ad0a613a
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^18.11.18":
-  version: 18.11.18
-  resolution: "@types/node@npm:18.11.18"
-  checksum: 03f17f9480f8d775c8a72da5ea7e9383db5f6d85aa5fefde90dd953a1449bd5e4ffde376f139da4f3744b4c83942166d2a7603969a6f8ea826edfb16e6e3b49d
   languageName: node
   linkType: hard
 
@@ -7310,7 +7305,7 @@ __metadata:
   dependencies:
     "@flexteam/mono-builder": "workspace:^"
     "@flexteam/watcher": "workspace:^"
-    turbo: ^1.6.3
+    turbo: 1.6.3
     typescript: ^4.9.4
   languageName: unknown
   linkType: soft
@@ -7877,7 +7872,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.6":
+"minimist@npm:^1.2.6, minimist@npm:^1.2.7":
   version: 1.2.7
   resolution: "minimist@npm:1.2.7"
   checksum: 7346574a1038ca23c32e02252f603801f09384dd1d78b69a943a4e8c2c28730b80e96193882d3d3b22a063445f460e48316b29b8a25addca2d7e5e8f75478bec
@@ -8748,7 +8743,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo@npm:^1.6.3":
+"turbo@npm:1.6.3":
   version: 1.6.3
   resolution: "turbo@npm:1.6.3"
   dependencies:

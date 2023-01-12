@@ -2,6 +2,9 @@
   "name": "@flexteam/watcher",
   "type": "module",
   "bin": "bin/index.mjs",
+  "exports": {
+    "import": "./dist/index.mjs"
+  },
   "engines": {
     "node": ">=16"
   },
@@ -12,11 +15,13 @@
   },
   "dependencies": {
     "@parcel/watcher": "^2.1.0",
+    "minimist": "^1.2.7",
     "rxjs": "^7.8.0",
-    "zx": "^7.1.1"
+    "zod": "^3.20.2"
   },
   "devDependencies": {
     "@flexteam/bundler": "workspace:^",
+    "@types/minimist": "^1.2.2",
     "@types/node": "^18.11.18",
     "esbuild": "^0.16.16",
     "rollup": "^3.9.1",
