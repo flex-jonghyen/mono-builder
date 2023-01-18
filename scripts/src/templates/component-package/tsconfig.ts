@@ -13,6 +13,7 @@ export const getComponentTsConfig = () => {
       "incremental": true,
       "declaration": true,
       "declarationDir": "dist",
+      "declarationMap": true,
       "jsx": "react-jsx",
       "emitDeclarationOnly": true,
     },

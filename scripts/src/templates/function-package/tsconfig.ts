@@ -13,6 +13,7 @@ export const getFunctionTsConfig = () => {
     "incremental": true,
     "declaration": true,
     "declarationDir": "dist",
+    "declarationMap": true,
     "emitDeclarationOnly": true,
   },
   "include": ["src"]
