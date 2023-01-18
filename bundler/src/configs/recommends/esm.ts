@@ -16,7 +16,6 @@ export const esm = (options: Options): RollupOptions => {
     output: merge(
       {
         format: "esm",
-        sourcemap: true,
       } satisfies OutputOptions,
       output
     ),

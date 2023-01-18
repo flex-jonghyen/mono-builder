@@ -21,9 +21,11 @@ export type Package = {
   type: ModuleType;
   bundled: boolean;
   importRatio: number;
+  sourceMap: boolean;
+  preserveModule: boolean;
 };
 
-export type App = Omit<Package, "bundled" | "type">;
+export type App = Omit<Package, "preserveModule" | "type">;
 
 export type Dependency = {
   name: string;

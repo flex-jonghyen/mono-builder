@@ -7,6 +7,7 @@
       "outputs": ["dist/*.d.ts", "tsconfig.tsbuildinfo"]
     },
     "build": {
+      "dependsOn": ["^build"],
       "inputs": ["src/**", "rollup.config.mjs", "tsconfig.json"],
       "outputs": ["dist/*.js"]
     },

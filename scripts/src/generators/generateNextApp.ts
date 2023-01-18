@@ -12,15 +12,14 @@ import { getNextAppPage } from "../templates/next-app/page.js";
 import { App } from "../types/index.js";
 import { generateFile } from "./generateFile.js";
 
-type Pararms = App & {
-  bundled: boolean;
-};
+type Pararms = App;
 
 export const generateNextApp = async ({
   files,
   name,
   importRatio,
   bundled,
+  sourceMap,
 }: Pararms) => {
   const dependencies = getDependenciesFromFiles(files);
 
@@ -30,7 +29,7 @@ export const generateNextApp = async ({
   });
   const tsconfig = getNextAppTsConfig();
   const nextEnvDts = getNextAppEnvDts();
-  const nextConfig = getNextAppConfig({ bundled });
+  const nextConfig = getNextAppConfig({ bundled, sourceMap });
 
   const appDir = path.join(APP_ROOT, `./${name}`);
 

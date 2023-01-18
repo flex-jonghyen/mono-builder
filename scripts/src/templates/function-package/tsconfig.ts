@@ -1,4 +1,8 @@
-export const getFunctionTsConfig = () => {
+type Params = {
+  sourceMap: boolean;
+};
+
+export const getFunctionTsConfig = ({ sourceMap }: Params) => {
   return `{
   "compilerOptions": {
     "target": "esnext",
@@ -13,7 +17,7 @@ export const getFunctionTsConfig = () => {
     "incremental": true,
     "declaration": true,
     "declarationDir": "dist",
-    "declarationMap": true,
+    "declarationMap": ${sourceMap ? "true" : "false"},
     "emitDeclarationOnly": true,
   },
   "include": ["src"]

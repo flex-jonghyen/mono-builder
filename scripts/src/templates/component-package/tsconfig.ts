@@ -1,4 +1,8 @@
-export const getComponentTsConfig = () => {
+type Params = {
+  sourceMap: boolean;
+};
+
+export const getComponentTsConfig = ({ sourceMap }: Params) => {
   return `{
     "compilerOptions": {
       "target": "esnext",
@@ -13,7 +17,7 @@ export const getComponentTsConfig = () => {
       "incremental": true,
       "declaration": true,
       "declarationDir": "dist",
-      "declarationMap": true,
+      "declarationMap": ${sourceMap ? "true" : "false"},
       "jsx": "react-jsx",
       "emitDeclarationOnly": true,
     },

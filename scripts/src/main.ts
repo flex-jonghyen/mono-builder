@@ -29,6 +29,7 @@ const env = await validateEnv({
     MODULE_TYPE: z.string().optional().default("all"),
     BUNDLED: z.string().transform((value) => value === "true"),
     PRESERVE_MODULE: z.string().transform((value) => value === "true"),
+    SOURCE_MAP: z.string().transform((value) => value === "true"),
   }).parse,
 });
 
@@ -42,6 +43,7 @@ const {
   MODULE_TYPE,
   BUNDLED,
   PRESERVE_MODULE,
+  SOURCE_MAP,
 } = env;
 
 export const main = async () => {
@@ -79,13 +81,12 @@ export const main = async () => {
           files: functionFiles,
           bundled: BUNDLED,
           importRatio: IMPORT_RATIO,
+          sourceMap: SOURCE_MAP,
+          preserveModule: PRESERVE_MODULE,
         };
 
         functionSubPackages.push(functionPackage);
-        await generatePackage({
-          ...functionPackage,
-          preserveModule: PRESERVE_MODULE,
-        });
+        await generatePackage(functionPackage);
       }
       functionPackages = functionSubPackages;
       functionSubPackages = [];
@@ -122,13 +123,12 @@ export const main = async () => {
           files: componentFiles,
           bundled: BUNDLED,
           importRatio: IMPORT_RATIO,
+          sourceMap: SOURCE_MAP,
+          preserveModule: PRESERVE_MODULE,
         };
 
         componentSubPackages.push(componentPackage);
-        await generatePackage({
-          ...componentPackage,
-          preserveModule: PRESERVE_MODULE,
-        });
+        await generatePackage(componentPackage);
       }
       componentPackages = componentSubPackages;
       componentSubPackages = [];
@@ -153,6 +153,7 @@ export const main = async () => {
     files: pages,
     importRatio: IMPORT_RATIO,
     bundled: BUNDLED,
+    sourceMap: SOURCE_MAP,
   });
 };
 

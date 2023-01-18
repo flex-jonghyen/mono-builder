@@ -30,7 +30,8 @@ export const getNextAppPackageJson = ({
         "@types/node": "18.11.12",
         "@types/react": "18.0.26",
         "@types/react-dom": "18.0.9",
-        "typescript": "4.9.4"
+        "typescript": "4.9.4",
+        "source-map-loader": "^4.0.1"
     }
   }
 `;

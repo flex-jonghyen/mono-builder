@@ -2,12 +2,14 @@ type Params = {
   preserveModule?: boolean;
   externals?: string[];
   packageJson: string;
+  sourceMap: boolean;
 };
 
 export const getRollupConfig = ({
   preserveModule = false,
   externals = [],
   packageJson,
+  sourceMap,
 }: Params) => {
   const { dependencies, peerDependencies } = JSON.parse(packageJson);
 
@@ -21,6 +23,7 @@ export const getRollupConfig = ({
   const config = esm({
     input: "src/index.ts",
     output: {
+      ${sourceMap ? "sourcemap: true," : ""}
       ${
         preserveModule
           ? `dir: 'dist', preserveModules: true, preserveModulesRoot: 'src'`
